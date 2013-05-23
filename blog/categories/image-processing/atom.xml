@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Image Processing | Nanoimaging Lab Blog]]></title>
   <link href="http://plops.github.io/blog/categories/image-processing/atom.xml" rel="self"/>
   <link href="http://plops.github.io/"/>
-  <updated>2013-05-23T16:23:14+02:00</updated>
+  <updated>2013-05-23T17:10:33+02:00</updated>
   <id>http://plops.github.io/</id>
   <author>
     <name><![CDATA[Martin Kielhorn]]></name>
@@ -19,26 +19,20 @@
     <updated>2013-05-23T15:49:00+02:00</updated>
     <id>http://plops.github.io/blog/2013/05/23/on-distortion-of-a-dichromatic-image-splitter</id>
     <content type="html"><![CDATA[<p>``` common-lisp Generate Maxima Code to find the three parameters of a rigid transform
-(with-open-file (s &ldquo;/dev/shm/optim.max&rdquo; :direction :output</p>
-
-<pre><code>       :if-exists :supersede
-       :if-does-not-exist :create)
-</code></pre>
-
-<p>  (format s &ldquo;load(minpack)$~%&rdquo;)
-  (format s &ldquo;g(p,tx,ty):=[&rdquo;)
-  (loop for (dist imdist iml imr lx ly x y) in</p>
-
-<pre><code>   *cleaned-point-correspondence* and i from 0 do
-   (format s "cos(p)*(~f)+sin(p)*(~f)+tx-(~f), -sin(p)*(~f)+cos(p)*(~f)+ty-(~f)~c~%" x y lx x y ly (if (= i (1- (length *cleaned-point-correspondence*)))
-                                              #\Space #\,)))
-</code></pre>
-
-<p>  (format s &ldquo;];~%&rdquo;)
-  (format s &ldquo;minpack_lsquares(g(p,tx,ty),[p,tx,ty],[.04,244.2,-0.7]);~%&rdquo;))</p>
+(with-open-file (s “/dev/shm/optim.max” :direction :output
+		   :if-exists :supersede
+		   :if-does-not-exist :create)
+  (format s “load(minpack)$~%”)
+  (format s “g(p,tx,ty):=[”)
+  (loop for (dist imdist iml imr lx ly x y) in
+       <em>cleaned-point-correspondence</em> and i from 0 do
+       (format s “cos(p)<em>(~f)+sin(p)</em>(~f)+tx-(~f), -sin(p)<em>(~f)+cos(p)</em>(~f)+ty-(~f)~c~%” x y lx x y ly (if (= i (1- (length <em>cleaned-point-correspondence</em>)))
+											      #\Space #\,)))
+  (format s “];~%”)
+  (format s “minpack_lsquares(g(p,tx,ty),[p,tx,ty],[.04,244.2,-0.7]);~%”))</p>
 
 <p>;; maxima fitting result:
-;; [[.05325489544613618, &ndash; 244.3662184306725, .01563720868233511],  25.96634987708376, 1]
+;; [[.05325489544613618, - 244.3662184306725, .01563720868233511],  25.96634987708376, 1]
 ```</p>
 ]]></content>
   </entry>
