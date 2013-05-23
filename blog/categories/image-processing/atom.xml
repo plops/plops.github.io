@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Image Processing | Nanoimaging Lab Blog]]></title>
   <link href="http://plops.github.io/blog/categories/image-processing/atom.xml" rel="self"/>
   <link href="http://plops.github.io/"/>
-  <updated>2013-05-23T17:10:33+02:00</updated>
+  <updated>2013-05-23T17:13:00+02:00</updated>
   <id>http://plops.github.io/</id>
   <author>
     <name><![CDATA[Martin Kielhorn]]></name>
@@ -18,7 +18,24 @@
     <link href="http://plops.github.io/blog/2013/05/23/on-distortion-of-a-dichromatic-image-splitter/"/>
     <updated>2013-05-23T15:49:00+02:00</updated>
     <id>http://plops.github.io/blog/2013/05/23/on-distortion-of-a-dichromatic-image-splitter</id>
-    <content type="html"><![CDATA[<p>``` common-lisp Generate Maxima Code to find the three parameters of a rigid transform
+    <content type="html"><![CDATA[<script type="math/tex; mode=display">
+\begin{align}
+\x' = R \x + \t
+\end{align}
+</script>
+
+<p>with rotation matrix that rotates towards left:
+$$
+\begin{align}
+  R =
+  \begin{pmatrix}
+    \cos\alpha &amp;  \sin\alpha <br />
+    -\sin\alpha &amp;  \cos\alpha
+  \end{pmatrix}
+\end{align}
+$$</p>
+
+<p>``` common-lisp Generate Maxima Code to find the three parameters of a rigid transform
 (with-open-file (s “/dev/shm/optim.max” :direction :output
 		   :if-exists :supersede
 		   :if-does-not-exist :create)
