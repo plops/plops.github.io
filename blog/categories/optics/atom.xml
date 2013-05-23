@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Optics | Nanoimaging Lab Blog]]></title>
   <link href="http://plops.github.io/blog/categories/optics/atom.xml" rel="self"/>
   <link href="http://plops.github.io/"/>
-  <updated>2013-05-23T17:13:00+02:00</updated>
+  <updated>2013-05-23T17:25:23+02:00</updated>
   <id>http://plops.github.io/</id>
   <author>
     <name><![CDATA[Martin Kielhorn]]></name>
@@ -19,6 +19,9 @@
     <updated>2013-05-23T15:49:00+02:00</updated>
     <id>http://plops.github.io/blog/2013/05/23/on-distortion-of-a-dichromatic-image-splitter</id>
     <content type="html"><![CDATA[<script type="math/tex; mode=display">
+\newcommand{\vect}[1]{\mathbf{#1}}
+\newcommand{\x}{\vect{x}}
+\renewcommand{\t}{\vect{t}}
 \begin{align}
 \x' = R \x + \t
 \end{align}
