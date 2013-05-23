@@ -9,12 +9,15 @@
   <meta name="author" content="Martin Kielhorn">
 
   
-  <meta name="description" content="\newcommand{\vect}[1]{\mathbf{#1}}
+  <meta name="description" content="\[
+\newcommand{\vect}[1]{\mathbf{#1}}
 \newcommand{\x}{\vect{x}}
 \renewcommand{\t}{\vect{t}}
 \begin{align}
-\x' = R \x + \t
-\end{align} with rotation &hellip;">
+\x&#39; = R \x + \t
+\end{align}
+\]
+with &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -110,56 +113,58 @@ MathJax.Hub.Config({
   </header>
 
 
-<div class="entry-content"><script type="math/tex; mode=display">
+<div class="entry-content"><p>\[
 \newcommand{\vect}[1]{\mathbf{#1}}
 \newcommand{\x}{\vect{x}}
 \renewcommand{\t}{\vect{t}}
 \begin{align}
-\x' = R \x + \t
+\x&#39; = R \x + \t
 \end{align}
-</script>
-
-<p>with rotation matrix that rotates towards left:
-$$
+\]</p>
+<p>with rotation matrix that rotates towards left: \[
 \begin{align}
   R =
   \begin{pmatrix}
-    \cos\alpha &amp;  \sin\alpha <br />
+    \cos\alpha &amp;  \sin\alpha &#92;
     -\sin\alpha &amp;  \cos\alpha
   \end{pmatrix}
 \end{align}
-$$</p>
-
-<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>Generate Maxima Code to find the three parameters of a rigid transform</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-<span class="line-number">2</span>
-<span class="line-number">3</span>
-<span class="line-number">4</span>
-<span class="line-number">5</span>
-<span class="line-number">6</span>
-<span class="line-number">7</span>
-<span class="line-number">8</span>
-<span class="line-number">9</span>
-<span class="line-number">10</span>
-<span class="line-number">11</span>
-<span class="line-number">12</span>
-<span class="line-number">13</span>
-<span class="line-number">14</span>
-</pre></td><td class="code"><pre><code class="common-lisp"><span class="line"><span class="p">(</span><span class="nb">with-open-file</span> <span class="p">(</span><span class="nv">s</span> <span class="s">&quot;/dev/shm/optim.max&quot;</span> <span class="ss">:direction</span> <span class="ss">:output</span>
-</span><span class="line">		   <span class="ss">:if-exists</span> <span class="ss">:supersede</span>
-</span><span class="line">		   <span class="ss">:if-does-not-exist</span> <span class="ss">:create</span><span class="p">)</span>
-</span><span class="line">  <span class="p">(</span><span class="nb">format</span> <span class="nv">s</span> <span class="s">&quot;load(minpack)$~%&quot;</span><span class="p">)</span>
-</span><span class="line">  <span class="p">(</span><span class="nb">format</span> <span class="nv">s</span> <span class="s">&quot;g(p,tx,ty):=[&quot;</span><span class="p">)</span>
-</span><span class="line">  <span class="p">(</span><span class="nb">loop</span> <span class="nv">for</span> <span class="p">(</span><span class="nv">dist</span> <span class="nv">imdist</span> <span class="nv">iml</span> <span class="nv">imr</span> <span class="nv">lx</span> <span class="nv">ly</span> <span class="nv">x</span> <span class="nv">y</span><span class="p">)</span> <span class="nv">in</span>
-</span><span class="line">       <span class="vg">*cleaned-point-correspondence*</span> <span class="nb">and</span> <span class="nv">i</span> <span class="nv">from</span> <span class="mi">0</span> <span class="nb">do</span>
-</span><span class="line">       <span class="p">(</span><span class="nb">format</span> <span class="nv">s</span> <span class="s">&quot;cos(p)*(~f)+sin(p)*(~f)+tx-(~f), -sin(p)*(~f)+cos(p)*(~f)+ty-(~f)~c~%&quot;</span> <span class="nv">x</span> <span class="nv">y</span> <span class="nv">lx</span> <span class="nv">x</span> <span class="nv">y</span> <span class="nv">ly</span> <span class="p">(</span><span class="k">if</span> <span class="p">(</span><span class="nb">=</span> <span class="nv">i</span> <span class="p">(</span><span class="nb">1-</span> <span class="p">(</span><span class="nb">length</span> <span class="vg">*cleaned-point-correspondence*</span><span class="p">)))</span>
-</span><span class="line">											      <span class="sc">#\Space</span> <span class="sc">#\,</span><span class="p">)))</span>
-</span><span class="line">  <span class="p">(</span><span class="nb">format</span> <span class="nv">s</span> <span class="s">&quot;];~%&quot;</span><span class="p">)</span>
-</span><span class="line">  <span class="p">(</span><span class="nb">format</span> <span class="nv">s</span> <span class="s">&quot;minpack_lsquares(g(p,tx,ty),[p,tx,ty],[.04,244.2,-0.7]);~%&quot;</span><span class="p">))</span>
-</span><span class="line">
-</span><span class="line"><span class="c1">;; maxima fitting result:</span>
-</span><span class="line"><span class="c1">;; [[.05325489544613618, - 244.3662184306725, .01563720868233511],  25.96634987708376, 1]</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div>
-</div>
+\]</p>
+<div class='bogus-wrapper'>
+<notextile>
+<figure class='code'>
+<figcaption><span>Generate Maxima Code to find the three parameters of a rigid transform</span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+</pre></td><td class='code'><pre><code class='common-lisp'><span class='line'><span class="p">(</span><span class="nb">with-open-file</span> <span class="p">(</span><span class="nv">s</span> <span class="s">&quot;/dev/shm/optim.max&quot;</span> <span class="ss">:direction</span> <span class="ss">:output</span>
+</span><span class='line'>         <span class="ss">:if-exists</span> <span class="ss">:supersede</span>
+</span><span class='line'>         <span class="ss">:if-does-not-exist</span> <span class="ss">:create</span><span class="p">)</span>
+</span><span class='line'>  <span class="p">(</span><span class="nb">format</span> <span class="nv">s</span> <span class="s">&quot;load(minpack)$~%&quot;</span><span class="p">)</span>
+</span><span class='line'>  <span class="p">(</span><span class="nb">format</span> <span class="nv">s</span> <span class="s">&quot;g(p,tx,ty):=[&quot;</span><span class="p">)</span>
+</span><span class='line'>  <span class="p">(</span><span class="nb">loop</span> <span class="nv">for</span> <span class="p">(</span><span class="nv">dist</span> <span class="nv">imdist</span> <span class="nv">iml</span> <span class="nv">imr</span> <span class="nv">lx</span> <span class="nv">ly</span> <span class="nv">x</span> <span class="nv">y</span><span class="p">)</span> <span class="nv">in</span>
+</span><span class='line'>       <span class="vg">*cleaned-point-correspondence*</span> <span class="nb">and</span> <span class="nv">i</span> <span class="nv">from</span> <span class="mi">0</span> <span class="nb">do</span>
+</span><span class='line'>       <span class="p">(</span><span class="nb">format</span> <span class="nv">s</span> <span class="s">&quot;cos(p)*(~f)+sin(p)*(~f)+tx-(~f), -sin(p)*(~f)+cos(p)*(~f)+ty-(~f)~c~%&quot;</span> <span class="nv">x</span> <span class="nv">y</span> <span class="nv">lx</span> <span class="nv">x</span> <span class="nv">y</span> <span class="nv">ly</span> <span class="p">(</span><span class="k">if</span> <span class="p">(</span><span class="nb">=</span> <span class="nv">i</span> <span class="p">(</span><span class="nb">1-</span> <span class="p">(</span><span class="nb">length</span> <span class="vg">*cleaned-point-correspondence*</span><span class="p">)))</span>
+</span><span class='line'>                                                <span class="sc">#\Space</span> <span class="sc">#\,</span><span class="p">)))</span>
+</span><span class='line'>  <span class="p">(</span><span class="nb">format</span> <span class="nv">s</span> <span class="s">&quot;];~%&quot;</span><span class="p">)</span>
+</span><span class='line'>  <span class="p">(</span><span class="nb">format</span> <span class="nv">s</span> <span class="s">&quot;minpack_lsquares(g(p,tx,ty),[p,tx,ty],[.04,244.2,-0.7]);~%&quot;</span><span class="p">))</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1">;; maxima fitting result:</span>
+</span><span class='line'><span class="c1">;; [[.05325489544613618, - 244.3662184306725, .01563720868233511],  25.96634987708376, 1]</span>
+</span></code></pre></td></tr></table></div></figure>
+</notextile>
+</div></div>
 
 
   <footer>
