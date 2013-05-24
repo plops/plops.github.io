@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Maxima | Nanoimaging Lab Blog]]></title>
   <link href="http://plops.github.io/blog/categories/maxima/atom.xml" rel="self"/>
   <link href="http://plops.github.io/"/>
-  <updated>2013-05-23T17:41:45+02:00</updated>
+  <updated>2013-05-24T13:30:27+02:00</updated>
   <id>http://plops.github.io/</id>
   <author>
     <name><![CDATA[Martin Kielhorn]]></name>
@@ -18,22 +18,20 @@
     <link href="http://plops.github.io/blog/2013/05/23/on-distortion-of-a-dichromatic-image-splitter/"/>
     <updated>2013-05-23T15:49:00+02:00</updated>
     <id>http://plops.github.io/blog/2013/05/23/on-distortion-of-a-dichromatic-image-splitter</id>
-    <content type="html"><![CDATA[<p>\[
-\newcommand{\vect}[1]{\mathbf{#1}}
-\newcommand{\x}{\vect{x}}
-\renewcommand{\t}{\vect{t}}
-\begin{align}
-\x&#39; = R \x + \t
-\end{align}
+    <content type="html"><![CDATA[<p>das ist ein test \(a+b=\sqrt{c}\)</p>
+<p>\[
+\begin{align*}
+\mathbf{x}&#39; = R \mathbf{x} + \mathbf{t}
+\end{align*}
 \]</p>
 <p>with rotation matrix that rotates towards left: \[
-\begin{align}
+\begin{align*}
   R =
   \begin{pmatrix}
     \cos\alpha &amp;  \sin\alpha \\
     -\sin\alpha &amp;  \cos\alpha
   \end{pmatrix}
-\end{align}
+\end{align*}
 \]</p>
 <p>``` common-lisp Generate Maxima Code to find the three parameters of a rigid transform (with-open-file (s <q>/dev/shm/optim.max</q> :direction :output :if-exists :supersede :if-does-not-exist :create) (format s <q>load(minpack)$~%</q>) (format s <q>g(p,tx,ty):=[</q>) (loop for (dist imdist iml imr lx ly x y) in <em>cleaned-point-correspondence</em> and i from 0 do (format s <q>cos(p)<em>(<sub>f)+sin(p)<em>(<sub>f)+tx-(</sub>f), -sin(p)</em>(</sub>f)+cos(p)</em>(<sub>f)+ty-(</sub>f)<sub>c</sub>%</q> x y lx x y ly (if (= i (1- (length <em>cleaned-point-correspondence</em>))) ##,))) (format s <q>];~%</q>) (format s <q>minpack_lsquares(g(p,tx,ty),[p,tx,ty],[.04,244.2,-0.7]);~%</q>))</p>
 <p>;; maxima fitting result: ;; [[.05325489544613618, - 244.3662184306725, .01563720868233511], 25.96634987708376, 1] ```</p>]]></content>
