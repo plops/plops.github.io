@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Maxima | Nanoimaging Lab Blog]]></title>
   <link href="http://plops.github.io/blog/categories/maxima/atom.xml" rel="self"/>
   <link href="http://plops.github.io/"/>
-  <updated>2013-05-24T13:30:27+02:00</updated>
+  <updated>2013-05-24T13:33:41+02:00</updated>
   <id>http://plops.github.io/</id>
   <author>
     <name><![CDATA[Martin Kielhorn]]></name>
@@ -18,7 +18,7 @@
     <link href="http://plops.github.io/blog/2013/05/23/on-distortion-of-a-dichromatic-image-splitter/"/>
     <updated>2013-05-23T15:49:00+02:00</updated>
     <id>http://plops.github.io/blog/2013/05/23/on-distortion-of-a-dichromatic-image-splitter</id>
-    <content type="html"><![CDATA[<p>das ist ein test \(a+b=\sqrt{c}\)</p>
+    <content type="html"><![CDATA[<p>basldfalsd ldajsfsl das ist ein test \(a+b=\sqrt{c}\)</p>
 <p>\[
 \begin{align*}
 \mathbf{x}&#39; = R \mathbf{x} + \mathbf{t}
