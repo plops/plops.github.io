@@ -19,7 +19,8 @@
        (:h1 "plops")
        (:h2 "overview")
 					;(:img :src "graph.svg")
-       (:raw (read-file-into-string "graph.svg"))
+       (loop for i upto 3 collect
+			  (:raw (read-file-into-string (format nil "graph~a.svg" i))))
        
        (:h2 "presentations"
 	    )
@@ -30,7 +31,34 @@
    s))
 
 (defparameter *graphs*
-  `((cpp2  optix
+  `((
+     main   sexpr
+     main   sdr
+     main  android
+     sdr  pluto
+     sdr  sar
+     sexpr  (cpp2 cl-cpp-generator2)
+     sexpr  (python cl-python-generator)
+     sexpr  (kotlin cl-kotlin-generator) 
+     sexpr  (rust cl-rust-generator) 
+     sexpr  (elixir cl-elixir-generator)
+     sexpr  (go cl-golang-generator)
+     sexpr  (js cl-js-generator)
+     sexpr  (matlab cl-m-generator)
+     sexpr  (swift cl-swift-generator)
+     python   finance
+     rust  cuda
+     rust  pluto
+     rust  uprof
+     elixir  phx
+     
+     js  electron
+     swift  tensorflow
+     go  gogui
+     gogui fayne
+     go  gogrpc
+     go  concur_chan)
+    (cpp2  optix
      cpp2  wasm
      cpp2  cuda
      cpp2  vulkan
@@ -66,8 +94,8 @@
      pygui  glumpy
      pygui  tkinter
      pygui  visdom
-     qt  trellis
-     qt  webengine
+     pyqt  trellis
+     pyqt  webengine
      python  waveguide
      ai  megatron
      ai  fastai
@@ -89,33 +117,7 @@
      kotlin  compress
      kotlin  encrypt
      )
-    (
-     main   sexpr
-     main   sdr
-     main  android
-     sdr  pluto
-     sdr  sar
-     sexpr  (cpp2 cl-cpp-generator2)
-     sexpr  (python cl-python-generator)
-     sexpr  (kotlin cl-kotlin-generator) 
-     sexpr  (rust cl-rust-generator) 
-     sexpr  (elixir cl-elixir-generator)
-     sexpr  (go cl-golang-generator)
-     sexpr  (js cl-js-generator)
-     sexpr  (matlab cl-m-generator)
-     sexpr  (swift cl-swift-generator)
-     python   finance
-     rust  cuda
-     rust  pluto
-     rust  uprof
-     elixir  phx
-     
-     js  electron
-     swift  tensorflow
-     go  gogui
-     gogui fayne
-     go  gogrpc
-     go  concur_chan)))
+    ))
 
 ;; pip install --user graphviz
 (ql:quickload "cl-py-generator")
