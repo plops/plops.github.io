@@ -1,5 +1,6 @@
 import graphviz
-g=graphviz.Digraph(comment="projects")
+import os
+g=graphviz.Digraph(format="svg", comment="projects")
 g.node("concur_chan")
 g.node("gogrpc")
 g.node("fayne")
@@ -160,4 +161,5 @@ g.edge("go", "gogui")
 g.edge("gogui", "fayne")
 g.edge("go", "gogrpc")
 g.edge("go", "concur_chan")
-print(g.source)
+g.render()
+os.rename("Digraph.gv.svg", "graph.svg")

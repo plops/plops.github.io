@@ -128,8 +128,10 @@
 
   (write-source "/home/martin/stage/plops.github.io/gen_graphviz"
 		`(do0
-		  (imports (graphviz))
-		  (setf g (graphviz.Digraph :comment (string "projects")))
+		  (imports (graphviz
+			    os))
+		  (setf g (graphviz.Digraph :format (string "svg")
+					    :comment (string "projects")))
 		  ,@(loop for e in nodes
 			  collect
 			  (let ((o (cadr (assoc e links))))
@@ -150,6 +152,9 @@
 					b)))
 			    `(g.edge (string ,a1)
 				     (string ,b1))))
-		  (print g.source))))
+		  #+nil (print g.source)
+		  (g.render)
+		  (os.rename (string "Digraph.gv.svg")
+			     (string "graph.svg")))))
 
 
