@@ -19,7 +19,9 @@
        (:h2 "presentations"
 	    )
        (:ol (dolist (item (directory "/home/martin/stage/plops.github.io/presentations/*.pdf"))
-	      (:li item))))))
+	      (:li (:a :href (format nil "https://plops.github.io/presentations/~a.~a" (pathname-name item)
+				     (pathname-type item))
+		       (pathname-name item))))))))
    s))
 
 
