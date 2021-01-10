@@ -32,14 +32,14 @@
 	   sdr  pluto
 	   sdr  sar
 	   sexpr  (cpp2 cl-cpp-generator2)
-	   sexpr  python
-	   sexpr  kotlin 
-	   sexpr  rust 
-	   sexpr  elixir
-	   sexpr  go
-	   sexpr  js
-	   sexpr  matlab
-	   sexpr  swift
+	   sexpr  (python cl-python-generator)
+	   sexpr  (kotlin cl-kotlin-generator) 
+	   sexpr  (rust cl-rust-generator) 
+	   sexpr  (elixir cl-elixir-generator)
+	   sexpr  (go cl-golang-generator)
+	   sexpr  (js cl-js-generator)
+	   sexpr  (matlab cl-m-generator)
+	   sexpr  (swift cl-swift-generator)
 	   python   finance
 	   rust  cuda
 	   rust  pluto
