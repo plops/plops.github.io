@@ -786,7 +786,7 @@
 <g id="node73" class="node">
 <title>cpp2</title>
 <g id="a_node73"><a xlink:href="https://github.com/plops/cl-cpp-generator2" xlink:title="cpp2">
-<ellipse fill="none" stroke="black" cx="1143.8" cy="-234" rx="33.29" ry="18"/>
+<ellipse fill="none" stroke="blue" cx="1143.8" cy="-234" rx="33.29" ry="18"/>
 <text text-anchor="middle" x="1143.8" y="-230.3" font-family="Times-Roman" font-size="14.00">cpp2</text>
 </a>
 </g>

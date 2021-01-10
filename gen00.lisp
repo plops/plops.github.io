@@ -136,10 +136,11 @@
 			  collect
 			  (let ((o (cadr (assoc e links))))
 			    (if o
-			     `(g.node (string ,e)
-				      :URL
-				   
-				      (string ,(format nil "https://github.com/plops/~a" o)))
+				`(g.node (string ,e)
+					 :color (string "blue")
+					 :URL
+					 
+					 (string ,(format nil "https://github.com/plops/~a" o)))
 			     `(g.node (string ,e)
 				      ))))
 		  ,@(loop for (a b) on *graph* by #'cddr
