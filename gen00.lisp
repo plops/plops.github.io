@@ -50,7 +50,7 @@
      rust  cuda
      rust  pluto
      rust  uprof
-     elixir  phx
+     elixir  (phx cl-elixir-generator/tree/main/example/03_phx_intro)
      
      js  electron
      swift  tensorflow
@@ -61,14 +61,14 @@
     (cpp2  optix
      cpp2  wasm
      cpp2  cuda
-     cpp2  vulkan
+     cpp2  (vulkan cl-cpp-generator2/tree/master/example/04_vulkan)
      cpp2  script
      script lua_in_cpp
      cpp2  tbb
      cpp2  embed
-     embed  pluto
+     embed  (pluto build_pluto_firmware)
      embed  psoc
-     embed  stm32
+     embed  (stm32 cl-cpp-generator2/tree/master/example/29_stm32nucleo)
      cpp2  sar
      cpp2  gui
      gui  gtk
@@ -76,7 +76,7 @@
      gui  fltk
      gui  imgui
      gui  wx
-     cpp2  asio
+     cpp2  (asio cl-cpp-generator2/tree/master/example/47_asio_part3)
      cpp2  script
      script pybind11
      pybind11 python_in_cpp
