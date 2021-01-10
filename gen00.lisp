@@ -121,50 +121,62 @@
 (ql:quickload "cl-py-generator")
 (in-package :cl-py-generator)
 
-
-(let ((nodes nil)
-      (links nil))
-  (loop for e in graph do
-    (setf nodes (adjoin (if (listp e)
-			    (first e)
-			    e) nodes)))
-  (loop for e in graph do
-    (when (listp e)
-      (push e links)))
-  (defparameter *links* links)
-
-  (write-source "/home/martin/stage/plops.github.io/gen_graphviz"
-		`(do0
-		  (imports (graphviz
-			    os))
-		  (setf g (graphviz.Digraph :format (string "svg")
-					    :comment (string "projects")))
-		  ,@(loop for e in nodes
-			  collect
-			  (let ((o (cadr (assoc e links))))
-			    (if o
-				`(g.node
-				  (string ,e)
-				  :color (string "blue")
-				  :URL
-				  (string
-				   ,(format nil
-					    "https://github.com/plops/~a" o)))
-			     `(g.node (string ,e)
-				      ))))
-		  ,@(loop for (a b) on *graph* by #'cddr
-			  collect
-			  (let ((a1 (if (listp a)
-					(first a)
-					a))
-				(b1 (if (listp b)
-					(first b)
-					b)))
-			    `(g.edge (string ,a1)
-				     (string ,b1))))
-		  #+nil (print g.source)
-		  (g.render)
-		  (os.rename (string "Digraph.gv.svg")
-			     (string "graph.svg")))))
+(defun get-nodes (graph)
+  (let ((nodes nil))
+   (loop for e in graph do
+     (setf nodes (adjoin (if (listp e)
+			     (first e)
+			     e) nodes)))
+    nodes))
+(defun get-links (graph)
+  (let ((links nil))
+     (loop for e in graph do
+       (when (listp e)
+	 (push e links)))
+    links))
+(write-source "/home/martin/stage/plops.github.io/gen_graphviz"
+	      `(do0
+		(imports (graphviz
+			  os))
+		
+		,@(loop for graph in *graphs* and gi from 0
+			 collect
+			 (let ((nodes (get-nodes graph))
+			       (links (get-links graph))
+			       (g (format nil "g~a" gi)))
+			   `(do0
+			     (setf ,g (graphviz.Digraph :format (string "svg")
+								 :comment (string "projects")))
+			    ,@(loop for e in nodes
+				  collect
+				  (let ((o (cadr (assoc e links))))
+				    `(do0
+				      
+				      ,(if o
+					   `(dot ,g
+						 (node
+						  (string ,e)
+						  :color (string "blue")
+						  :URL
+						  (string
+						   ,(format nil
+							    "https://github.com/plops/~a" o))))
+					   `(dot ,g (node (string ,e)))))))
+			    ,@(loop for (a b) on graph by #'cddr
+				  collect
+				  (let ((a1 (if (listp a)
+						(first a)
+						a))
+					(b1 (if (listp b)
+						(first b)
+						b)))
+				    `(dot ,g (edge (string ,a1)
+						   (string ,b1)))))
+			    (do0
+			     (dot ,g (render))
+			     (os.rename (string "Digraph.gv.svg")
+					(string ,(format nil "graph~a.svg" gi)))))))
+		
+		))
 
 
