@@ -16,6 +16,7 @@
       (:body
        (:h1 "plops")
        (:h2 "overview")
+       (:img :src "graph.svg")
        (:h2 "presentations"
 	    )
        (:ol (dolist (item (directory "/home/martin/stage/plops.github.io/presentations/*.pdf"))
