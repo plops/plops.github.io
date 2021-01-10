@@ -3,6 +3,8 @@
   (ql:quickload "alexandria")
   (ql:quickload "spinneret"))
 
+
+
 (with-open-file (s "index.html"
 		   :direction :output
 		   :if-exists :supersede
@@ -16,7 +18,9 @@
       (:body
        (:h1 "plops")
        (:h2 "overview")
-       (:img :src "graph.svg")
+					;(:img :src "graph.svg")
+       (:raw (read-file-into-string "graph.svg"))
+       
        (:h2 "presentations"
 	    )
        (:ol (dolist (item (directory "/home/martin/stage/plops.github.io/presentations/*.pdf"))
@@ -136,11 +140,13 @@
 			  collect
 			  (let ((o (cadr (assoc e links))))
 			    (if o
-				`(g.node (string ,e)
-					 :color (string "blue")
-					 :URL
-					 
-					 (string ,(format nil "https://github.com/plops/~a" o)))
+				`(g.node
+				  (string ,e)
+				  :color (string "blue")
+				  :URL
+				  (string
+				   ,(format nil
+					    "https://github.com/plops/~a" o)))
 			     `(g.node (string ,e)
 				      ))))
 		  ,@(loop for (a b) on *graph* by #'cddr

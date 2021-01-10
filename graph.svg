@@ -569,8 +569,11 @@
 <!-- swift -->
 <g id="node65" class="node">
 <title>swift</title>
-<ellipse fill="none" stroke="black" cx="1468.8" cy="-234" rx="31.7" ry="18"/>
+<g id="a_node65"><a xlink:href="https://github.com/plops/cl-swift-generator" xlink:title="swift">
+<ellipse fill="none" stroke="blue" cx="1468.8" cy="-234" rx="31.7" ry="18"/>
 <text text-anchor="middle" x="1468.8" y="-230.3" font-family="Times-Roman" font-size="14.00">swift</text>
+</a>
+</g>
 </g>
 <!-- swift&#45;&gt;tensorflow -->
 <g id="edge78" class="edge">
@@ -581,14 +584,20 @@
 <!-- matlab -->
 <g id="node66" class="node">
 <title>matlab</title>
-<ellipse fill="none" stroke="black" cx="205.8" cy="-234" rx="42.49" ry="18"/>
+<g id="a_node66"><a xlink:href="https://github.com/plops/cl-m-generator" xlink:title="matlab">
+<ellipse fill="none" stroke="blue" cx="205.8" cy="-234" rx="42.49" ry="18"/>
 <text text-anchor="middle" x="205.8" y="-230.3" font-family="Times-Roman" font-size="14.00">matlab</text>
+</a>
+</g>
 </g>
 <!-- js -->
 <g id="node67" class="node">
 <title>js</title>
-<ellipse fill="none" stroke="black" cx="292.8" cy="-234" rx="27" ry="18"/>
+<g id="a_node67"><a xlink:href="https://github.com/plops/cl-js-generator" xlink:title="js">
+<ellipse fill="none" stroke="blue" cx="292.8" cy="-234" rx="27" ry="18"/>
 <text text-anchor="middle" x="292.8" y="-230.3" font-family="Times-Roman" font-size="14.00">js</text>
+</a>
+</g>
 </g>
 <!-- js&#45;&gt;electron -->
 <g id="edge68" class="edge">
@@ -599,8 +608,11 @@
 <!-- go -->
 <g id="node68" class="node">
 <title>go</title>
-<ellipse fill="none" stroke="black" cx="446.8" cy="-234" rx="27" ry="18"/>
+<g id="a_node68"><a xlink:href="https://github.com/plops/cl-golang-generator" xlink:title="go">
+<ellipse fill="none" stroke="blue" cx="446.8" cy="-234" rx="27" ry="18"/>
 <text text-anchor="middle" x="446.8" y="-230.3" font-family="Times-Roman" font-size="14.00">go</text>
+</a>
+</g>
 </g>
 <!-- go&#45;&gt;concur_chan -->
 <g id="edge82" class="edge">
@@ -623,8 +635,11 @@
 <!-- elixir -->
 <g id="node69" class="node">
 <title>elixir</title>
-<ellipse fill="none" stroke="black" cx="369.8" cy="-234" rx="32.49" ry="18"/>
+<g id="a_node69"><a xlink:href="https://github.com/plops/cl-elixir-generator" xlink:title="elixir">
+<ellipse fill="none" stroke="blue" cx="369.8" cy="-234" rx="32.49" ry="18"/>
 <text text-anchor="middle" x="369.8" y="-230.3" font-family="Times-Roman" font-size="14.00">elixir</text>
+</a>
+</g>
 </g>
 <!-- elixir&#45;&gt;phx -->
 <g id="edge42" class="edge">
@@ -635,8 +650,11 @@
 <!-- rust -->
 <g id="node70" class="node">
 <title>rust</title>
-<ellipse fill="none" stroke="black" cx="628.8" cy="-234" rx="28.7" ry="18"/>
+<g id="a_node70"><a xlink:href="https://github.com/plops/cl-rust-generator" xlink:title="rust">
+<ellipse fill="none" stroke="blue" cx="628.8" cy="-234" rx="28.7" ry="18"/>
 <text text-anchor="middle" x="628.8" y="-230.3" font-family="Times-Roman" font-size="14.00">rust</text>
+</a>
+</g>
 </g>
 <!-- rust&#45;&gt;uprof -->
 <g id="edge17" class="edge">
@@ -659,8 +677,11 @@
 <!-- kotlin -->
 <g id="node71" class="node">
 <title>kotlin</title>
-<ellipse fill="none" stroke="black" cx="2302.8" cy="-234" rx="35.19" ry="18"/>
+<g id="a_node71"><a xlink:href="https://github.com/plops/cl-kotlin-generator" xlink:title="kotlin">
+<ellipse fill="none" stroke="blue" cx="2302.8" cy="-234" rx="35.19" ry="18"/>
 <text text-anchor="middle" x="2302.8" y="-230.3" font-family="Times-Roman" font-size="14.00">kotlin</text>
+</a>
+</g>
 </g>
 <!-- kotlin&#45;&gt;encrypt -->
 <g id="edge77" class="edge">
@@ -719,8 +740,11 @@
 <!-- python -->
 <g id="node72" class="node">
 <title>python</title>
-<ellipse fill="none" stroke="black" cx="3307.8" cy="-234" rx="42.49" ry="18"/>
+<g id="a_node72"><a xlink:href="https://github.com/plops/cl-python-generator" xlink:title="python">
+<ellipse fill="none" stroke="blue" cx="3307.8" cy="-234" rx="42.49" ry="18"/>
 <text text-anchor="middle" x="3307.8" y="-230.3" font-family="Times-Roman" font-size="14.00">python</text>
+</a>
+</g>
 </g>
 <!-- python&#45;&gt;dask -->
 <g id="edge67" class="edge">
