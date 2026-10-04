@@ -1,0 +1,3307 @@
+{
+ "1isp-quadtree": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "science-math",
+  "confidence": "high",
+  "reason": "name contains 'quadtree'",
+  "last_commit_date": "2010-12-10 10:39:21 +0000"
+ },
+ "Arduino_fastSIMplayingaround": {
+  "status": "ok",
+  "language": "arduino",
+  "language_score": 13,
+  "language_reason": "marker *.ino",
+  "cluster": "embedded-fpga",
+  "confidence": "high",
+  "reason": "name contains 'arduino'",
+  "last_commit_date": "2013-07-26 10:39:16 +0200"
+ },
+ "BasicEnglishDeutschCesky": {
+  "status": "ok",
+  "language": "docs",
+  "language_score": 2,
+  "language_reason": "ext .orgx1",
+  "cluster": "docs-meta",
+  "confidence": "high",
+  "reason": "manual override (language learning docs (tex/pdf, no code))",
+  "last_commit_date": "2012-01-10 14:32:09 +0100"
+ },
+ "JLCPCBBasicLibrary": {
+  "status": "ok",
+  "language": "docs",
+  "language_score": 3,
+  "language_reason": "ext .mdx3",
+  "cluster": "embedded-fpga",
+  "confidence": "high",
+  "reason": "name contains 'jlcpcb'",
+  "last_commit_date": "2019-10-23 16:14:26 -0400"
+ },
+ "K325T_SFP_PCIE_2021": {
+  "status": "ok",
+  "language": "verilog",
+  "language_score": 194,
+  "language_reason": "ext .vx97",
+  "cluster": "embedded-fpga",
+  "confidence": "high",
+  "reason": "name contains 'k325t'",
+  "last_commit_date": "2026-02-18 20:34:30 +0000"
+ },
+ "LiteRT": {
+  "status": "ok",
+  "language": "cpp",
+  "language_score": 4924,
+  "language_reason": "marker CMakeLists.txt",
+  "cluster": "ml-ai",
+  "confidence": "high",
+  "reason": "name contains 'litert'",
+  "last_commit_date": "2025-09-20 18:40:31 -0700"
+ },
+ "Napa-FFT3": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 58,
+  "language_reason": "marker *.asd",
+  "cluster": "science-math",
+  "confidence": "high",
+  "reason": "name contains 'fft'",
+  "last_commit_date": "2015-10-09 18:07:26 +0200"
+ },
+ "SuWidgets": {
+  "status": "ok",
+  "language": "cpp",
+  "language_score": 52,
+  "language_reason": "ext .cppx26",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains 'widget'",
+  "last_commit_date": "2020-10-23 20:06:16 +0200"
+ },
+ "View5D.jl": {
+  "status": "ok",
+  "language": "java",
+  "language_score": 222,
+  "language_reason": "ext .javax74",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "manual override (View5D microscopy viewer (Julia/Java))",
+  "last_commit_date": "2014-08-26 00:16:34 +0200"
+ },
+ "abstract-b": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 58,
+  "language_reason": "marker *.asd",
+  "cluster": "lisp-libs",
+  "confidence": "medium",
+  "reason": "language fallback (lisp)",
+  "last_commit_date": "2010-09-22 15:35:56 +0100"
+ },
+ "ada_forth": {
+  "status": "ok",
+  "language": "ada",
+  "language_score": 36,
+  "language_reason": "ext .adbx7",
+  "cluster": "lisp-libs",
+  "confidence": "high",
+  "reason": "manual override (Forth interpreter written in Ada)",
+  "last_commit_date": "2026-04-08 21:46:38 +0000"
+ },
+ "ada_lisp": {
+  "status": "ok",
+  "language": "ada",
+  "language_score": 132,
+  "language_reason": "ext .adbx26",
+  "cluster": "lisp-libs",
+  "confidence": "high",
+  "reason": "manual override (Lisp interpreter written in Ada)",
+  "last_commit_date": "2026-03-27 19:10:46 +0000"
+ },
+ "ada_recall_fosdem2019": {
+  "status": "ok",
+  "language": "ada",
+  "language_score": 18,
+  "language_reason": "ext .adsx3",
+  "cluster": "docs-meta",
+  "confidence": "high",
+  "reason": "manual override (FOSDEM conference talk, not code)",
+  "last_commit_date": "2019-02-13 20:24:13 +0100"
+ },
+ "ada_sensor_fusion": {
+  "status": "ok",
+  "language": "ada",
+  "language_score": 114,
+  "language_reason": "ext .adbx31",
+  "cluster": "mobile",
+  "confidence": "high",
+  "reason": "name contains 'sensor'",
+  "last_commit_date": "2026-03-30 06:49:07 +0000"
+ },
+ "afm": {
+  "status": "ok",
+  "language": "python",
+  "language_score": 21,
+  "language_reason": "ext .pyx6",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'afm'",
+  "last_commit_date": "2026-06-10 22:43:37 +0000"
+ },
+ "aom-decode": {
+  "status": "ok",
+  "language": "rust",
+  "language_score": 37,
+  "language_reason": "marker Cargo.toml",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'aom'",
+  "last_commit_date": "2024-10-17 13:25:28 +0100"
+ },
+ "arduino-intro-talk": {
+  "status": "ok",
+  "language": "js",
+  "language_score": 38,
+  "language_reason": "ext .jsx19",
+  "cluster": "embedded-fpga",
+  "confidence": "high",
+  "reason": "name contains 'arduino'",
+  "last_commit_date": "2013-05-27 19:11:12 +0200"
+ },
+ "arduino-stage-trigger-gen": {
+  "status": "ok",
+  "language": "arduino",
+  "language_score": 16,
+  "language_reason": "marker *.ino",
+  "cluster": "embedded-fpga",
+  "confidence": "high",
+  "reason": "name contains 'arduino'",
+  "last_commit_date": "2013-05-13 12:20:56 -0400"
+ },
+ "arduino": {
+  "status": "ok",
+  "language": "arduino",
+  "language_score": 13,
+  "language_reason": "marker *.pde",
+  "cluster": "embedded-fpga",
+  "confidence": "high",
+  "reason": "name contains 'arduino'",
+  "last_commit_date": "2010-11-21 16:09:08 +0000"
+ },
+ "arduino_due_lisp": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 127,
+  "language_reason": "marker *.asd",
+  "cluster": "embedded-fpga",
+  "confidence": "high",
+  "reason": "name contains 'arduino'",
+  "last_commit_date": "2026-02-18 20:46:48 +0000"
+ },
+ "array-type-dispatch": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "lisp-libs",
+  "confidence": "medium",
+  "reason": "language fallback (lisp)",
+  "last_commit_date": "2011-03-07 07:06:01 +0000"
+ },
+ "bacon_fb_test": {
+  "status": "ok",
+  "language": "c",
+  "language_score": 3,
+  "language_reason": "ext .cx1",
+  "cluster": "imaging-optics",
+  "confidence": "medium",
+  "reason": "readme/log contains 'image processing'",
+  "last_commit_date": "2026-02-18 00:46:38 +0000"
+ },
+ "barium": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 259,
+  "language_reason": "marker *.asd",
+  "cluster": "gpu-graphics",
+  "confidence": "medium",
+  "reason": "readme/log contains 'opengl'",
+  "last_commit_date": "2026-03-14 20:55:14 +0100"
+ },
+ "basleradapter": {
+  "status": "ok",
+  "language": "docs",
+  "language_score": 1,
+  "language_reason": "ext .pdfx1",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'basler'",
+  "last_commit_date": "2014-03-17 11:38:14 +0100"
+ },
+ "bayes": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "lisp-libs",
+  "confidence": "medium",
+  "reason": "language fallback (lisp)",
+  "last_commit_date": "2011-05-04 19:25:44 +0100"
+ },
+ "bead-eval": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 16,
+  "language_reason": "marker *.asd",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'bead'",
+  "last_commit_date": "2011-08-09 18:08:06 +0100"
+ },
+ "bincode": {
+  "status": "ok",
+  "language": "rust",
+  "language_score": 221,
+  "language_reason": "marker Cargo.toml",
+  "cluster": "rust-apps",
+  "confidence": "medium",
+  "reason": "language fallback (rust)",
+  "last_commit_date": "2025-12-16 11:04:39 +0100"
+ },
+ "build_pluto_firmware": {
+  "status": "ok",
+  "language": "cpp",
+  "language_score": 64,
+  "language_reason": "marker CMakeLists.txt",
+  "cluster": "sdr-radio",
+  "confidence": "high",
+  "reason": "name contains 'pluto'",
+  "last_commit_date": "2022-09-26 20:09:48 +0200"
+ },
+ "c-kdtree": {
+  "status": "ok",
+  "language": "cpp",
+  "language_score": 2,
+  "language_reason": "ext .cppx1",
+  "cluster": "science-math",
+  "confidence": "high",
+  "reason": "name contains 'k-d tree'",
+  "last_commit_date": "2010-07-19 11:19:54 +0100"
+ },
+ "c-mera-clFFT-example": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "science-math",
+  "confidence": "high",
+  "reason": "name contains 'clfft'",
+  "last_commit_date": "2015-09-06 11:22:42 +0200"
+ },
+ "c-mera-ncurses": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 6,
+  "language_reason": "ext .lispx2",
+  "cluster": "lisp-libs",
+  "confidence": "medium",
+  "reason": "language fallback (lisp)",
+  "last_commit_date": "2016-07-01 11:10:19 +0200"
+ },
+ "c-mera-ulisp": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 37,
+  "language_reason": "marker *.asd",
+  "cluster": "lisp-libs",
+  "confidence": "medium",
+  "reason": "language fallback (lisp)",
+  "last_commit_date": "2016-07-08 00:48:13 +0200"
+ },
+ "c_net": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "web-net",
+  "confidence": "high",
+  "reason": "manual override (C networking experiment (accept()))",
+  "last_commit_date": "2009-08-09 07:47:26 +0100"
+ },
+ "camera-calib-doc": {
+  "status": "ok",
+  "language": "latex",
+  "language_score": 2,
+  "language_reason": "ext .texx1",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'camera calib'",
+  "last_commit_date": "2011-06-16 21:31:40 +0100"
+ },
+ "ccl-headers": {
+  "status": "ok",
+  "language": "shell",
+  "language_score": 7,
+  "language_reason": "ext .shx7",
+  "cluster": "lisp-libs",
+  "confidence": "high",
+  "reason": "manual override (Clozure CL FFI headers for Lisp)",
+  "last_commit_date": "2014-02-01 02:58:05 +0100"
+ },
+ "cdjb": {
+  "status": "ok",
+  "language": "c",
+  "language_score": 2,
+  "language_reason": "ext .cx1",
+  "cluster": "cpp-projects",
+  "confidence": "medium",
+  "reason": "language fallback (c)",
+  "last_commit_date": "2009-10-22 05:55:49 +0100"
+ },
+ "chinesisch-lernen": {
+  "status": "ok",
+  "language": "docs",
+  "language_score": 5,
+  "language_reason": "ext .mdx5",
+  "cluster": "docs-meta",
+  "confidence": "high",
+  "reason": "name contains 'chinesisch'",
+  "last_commit_date": "2026-03-11 10:08:14 +0000"
+ },
+ "cl-3d-screen": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains '3d'",
+  "last_commit_date": "2012-12-23 17:50:10 +0100"
+ },
+ "cl-3d-screen.wiki": {
+  "status": "wiki",
+  "cluster": null,
+  "language": null
+ },
+ "cl-ada-generator": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 31,
+  "language_reason": "marker *.asd",
+  "cluster": "generators",
+  "confidence": "high",
+  "reason": "name contains 'generator'",
+  "last_commit_date": "2017-09-25 00:41:26 +0200"
+ },
+ "cl-aframe": {
+  "status": "ok",
+  "language": "js",
+  "language_score": 6,
+  "language_reason": "ext .jsx3",
+  "cluster": "web-net",
+  "confidence": "high",
+  "reason": "name contains 'aframe'",
+  "last_commit_date": "2017-09-06 19:38:31 +0200"
+ },
+ "cl-andor": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 6,
+  "language_reason": "ext .lispx2",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'andor'",
+  "last_commit_date": "2010-02-09 19:01:03 +0000"
+ },
+ "cl-bessel-fftw": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "science-math",
+  "confidence": "high",
+  "reason": "name contains 'fftw'",
+  "last_commit_date": "2013-10-29 10:45:51 +0000"
+ },
+ "cl-bessel-zero": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "lisp-libs",
+  "confidence": "medium",
+  "reason": "language fallback (lisp)",
+  "last_commit_date": "2013-09-04 16:39:44 +0200"
+ },
+ "cl-blinkstroem": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "lisp-libs",
+  "confidence": "medium",
+  "reason": "language fallback (lisp)",
+  "last_commit_date": "2013-01-15 23:14:15 +0100"
+ },
+ "cl-c2ffi-nfft": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "science-math",
+  "confidence": "high",
+  "reason": "name contains 'nfft'",
+  "last_commit_date": "2016-06-01 02:14:16 +0200"
+ },
+ "cl-c2ffi-vpx": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'vpx'",
+  "last_commit_date": "2016-06-18 12:52:08 +0200"
+ },
+ "cl-c2ffi-wayland": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains 'wayland'",
+  "last_commit_date": "2016-05-19 01:01:57 +0200"
+ },
+ "cl-cad-stl-check": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 9,
+  "language_reason": "ext .lispx3",
+  "cluster": "lisp-libs",
+  "confidence": "medium",
+  "reason": "language fallback (lisp)",
+  "last_commit_date": "2010-07-12 12:12:20 +0100"
+ },
+ "cl-cffi-callback-test": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "lisp-libs",
+  "confidence": "medium",
+  "reason": "language fallback (lisp)",
+  "last_commit_date": "2016-10-29 02:20:03 +0200"
+ },
+ "cl-cffi-fftw3": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 28,
+  "language_reason": "marker *.asd",
+  "cluster": "science-math",
+  "confidence": "high",
+  "reason": "name contains 'fftw'",
+  "last_commit_date": "2015-06-03 09:34:09 +0200"
+ },
+ "cl-cffi-gtk-from-repl": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 37,
+  "language_reason": "marker *.asd",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains 'gtk'",
+  "last_commit_date": "2014-12-22 13:06:24 +0100"
+ },
+ "cl-cffi-gtk": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 1465,
+  "language_reason": "marker *.asd",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains 'gtk'",
+  "last_commit_date": "2014-11-05 17:35:21 +0100"
+ },
+ "cl-cl-generator": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 691,
+  "language_reason": "marker *.asd",
+  "cluster": "generators",
+  "confidence": "high",
+  "reason": "name contains 'generator'",
+  "last_commit_date": "2026-10-04 08:48:55 +0000"
+ },
+ "cl-commonlisp-generator": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 22,
+  "language_reason": "marker *.asd",
+  "cluster": "generators",
+  "confidence": "high",
+  "reason": "name contains 'generator'",
+  "last_commit_date": "2021-08-13 22:58:13 +0200"
+ },
+ "cl-cpp-generator": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 28,
+  "language_reason": "marker *.asd",
+  "cluster": "generators",
+  "confidence": "high",
+  "reason": "name contains 'generator'",
+  "last_commit_date": "2020-09-16 16:27:46 +0200"
+ },
+ "cl-cpp-generator2": {
+  "status": "ok",
+  "language": "cpp",
+  "language_score": 1118,
+  "language_reason": "marker CMakeLists.txt",
+  "cluster": "generators",
+  "confidence": "high",
+  "reason": "name contains 'generator'",
+  "last_commit_date": "2026-09-19 15:43:50 +0000"
+ },
+ "cl-csharp-generator": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 46,
+  "language_reason": "marker *.asd",
+  "cluster": "generators",
+  "confidence": "high",
+  "reason": "name contains 'generator'",
+  "last_commit_date": "2023-07-09 22:56:42 +0200"
+ },
+ "cl-cubic-interp": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "lisp-libs",
+  "confidence": "medium",
+  "reason": "language fallback (lisp)",
+  "last_commit_date": "2013-09-06 18:29:57 +0200"
+ },
+ "cl-data-pipes": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "lisp-libs",
+  "confidence": "medium",
+  "reason": "language fallback (lisp)",
+  "last_commit_date": "2011-07-20 13:22:09 +0100"
+ },
+ "cl-depth-shader": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains 'shader'",
+  "last_commit_date": "2011-03-20 21:13:30 +0000"
+ },
+ "cl-dmd-control": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 9,
+  "language_reason": "ext .lispx3",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'dmd'",
+  "last_commit_date": "2013-02-16 00:32:15 +0100"
+ },
+ "cl-draw-svg-bezier": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains 'svg'",
+  "last_commit_date": "2011-07-10 13:37:53 +0100"
+ },
+ "cl-elixir-generator": {
+  "status": "ok",
+  "language": "elixir",
+  "language_score": 261,
+  "language_reason": "ext .exsx45",
+  "cluster": "generators",
+  "confidence": "high",
+  "reason": "name contains 'generator'",
+  "last_commit_date": "2021-02-20 21:46:54 +0100"
+ },
+ "cl-erlang-generator": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 22,
+  "language_reason": "marker *.asd",
+  "cluster": "generators",
+  "confidence": "high",
+  "reason": "name contains 'generator'",
+  "last_commit_date": "2022-05-26 13:44:28 +0200"
+ },
+ "cl-fftw3": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 37,
+  "language_reason": "marker *.asd",
+  "cluster": "science-math",
+  "confidence": "high",
+  "reason": "name contains 'clfft'",
+  "last_commit_date": "2013-10-28 17:53:51 +0000"
+ },
+ "cl-fiber-prop": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 49,
+  "language_reason": "marker *.asd",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'fiber'",
+  "last_commit_date": "2014-11-11 02:29:45 +0100"
+ },
+ "cl-fm-radio-rds": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "sdr-radio",
+  "confidence": "high",
+  "reason": "name contains 'fm-radio'",
+  "last_commit_date": "2026-02-18 00:39:41 +0000"
+ },
+ "cl-fm-radio-rds.wiki": {
+  "status": "wiki",
+  "cluster": null,
+  "language": null
+ },
+ "cl-gaussfit": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 18,
+  "language_reason": "ext .lispx6",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'gaussfit'",
+  "last_commit_date": "2012-04-02 21:23:08 +0200"
+ },
+ "cl-gaussfit.wiki": {
+  "status": "wiki",
+  "cluster": null,
+  "language": null
+ },
+ "cl-gaussian-shell": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "lisp-libs",
+  "confidence": "medium",
+  "reason": "language fallback (lisp)",
+  "last_commit_date": "2014-10-13 14:13:12 +0200"
+ },
+ "cl-gen-android-sensor": {
+  "status": "ok",
+  "language": "shell",
+  "language_score": 11,
+  "language_reason": "ext .shx11",
+  "cluster": "mobile",
+  "confidence": "high",
+  "reason": "name contains 'android'",
+  "last_commit_date": "2017-06-26 08:49:44 +0200"
+ },
+ "cl-gen-cpp-wasm": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "web-net",
+  "confidence": "high",
+  "reason": "name contains 'wasm'",
+  "last_commit_date": "2019-06-10 19:10:04 +0200"
+ },
+ "cl-gen-cuda-try": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 18,
+  "language_reason": "ext .lispx6",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains 'cuda'",
+  "last_commit_date": "2019-06-03 11:05:50 +0200"
+ },
+ "cl-gen-cufft": {
+  "status": "ok",
+  "language": "cpp",
+  "language_score": 6,
+  "language_reason": "marker CMakeLists.txt",
+  "cluster": "science-math",
+  "confidence": "high",
+  "reason": "name contains 'cufft'",
+  "last_commit_date": "2019-03-17 13:13:57 +0100"
+ },
+ "cl-gen-drm-waterfall": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "sdr-radio",
+  "confidence": "high",
+  "reason": "name contains 'waterfall'",
+  "last_commit_date": "2018-03-24 13:42:36 +0100"
+ },
+ "cl-gen-drmgfx": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains 'drmgfx'",
+  "last_commit_date": "2018-02-04 06:56:38 +0100"
+ },
+ "cl-gen-egl-compute": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains 'egl'",
+  "last_commit_date": "2018-02-28 08:15:38 +0100"
+ },
+ "cl-gen-fft": {
+  "status": "ok",
+  "language": "cpp",
+  "language_score": 6,
+  "language_reason": "marker CMakeLists.txt",
+  "cluster": "science-math",
+  "confidence": "high",
+  "reason": "name contains 'fft'",
+  "last_commit_date": "2017-06-06 08:25:30 +0200"
+ },
+ "cl-gen-fuzz": {
+  "status": "ok",
+  "language": "cpp",
+  "language_score": 6,
+  "language_reason": "marker CMakeLists.txt",
+  "cluster": "cpp-projects",
+  "confidence": "medium",
+  "reason": "language fallback (cpp)",
+  "last_commit_date": "2017-08-09 19:06:02 +0200"
+ },
+ "cl-gen-glfw": {
+  "status": "ok",
+  "language": "cpp",
+  "language_score": 8,
+  "language_reason": "marker CMakeLists.txt",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains 'glfw'",
+  "last_commit_date": "2019-04-27 06:39:58 +0200"
+ },
+ "cl-gen-graphics-drm": {
+  "status": "ok",
+  "language": "cpp",
+  "language_score": 8,
+  "language_reason": "marker CMakeLists.txt",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains 'drm'",
+  "last_commit_date": "2017-10-08 02:29:46 +0200"
+ },
+ "cl-gen-halide-test": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 9,
+  "language_reason": "ext .lispx3",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains 'halide'",
+  "last_commit_date": "2018-10-21 07:18:21 +0200"
+ },
+ "cl-gen-ispc-mandelbrot": {
+  "status": "ok",
+  "language": "cpp",
+  "language_score": 6,
+  "language_reason": "marker CMakeLists.txt",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains 'mandelbrot'",
+  "last_commit_date": "2017-03-14 18:01:19 +0100"
+ },
+ "cl-gen-magnum": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 9,
+  "language_reason": "ext .lispx3",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains 'magnum'",
+  "last_commit_date": "2017-06-22 16:49:29 +0200"
+ },
+ "cl-gen-qt-thing": {
+  "status": "ok",
+  "language": "cpp",
+  "language_score": 12,
+  "language_reason": "marker CMakeLists.txt",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains 'qt'",
+  "last_commit_date": "2017-05-02 11:00:02 +0200"
+ },
+ "cl-gen2-glfw-imgui": {
+  "status": "ok",
+  "language": "cpp",
+  "language_score": 8,
+  "language_reason": "ext .cppx4",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains 'glfw'",
+  "last_commit_date": "2020-01-25 08:43:57 +0100"
+ },
+ "cl-gen2-optix": {
+  "status": "ok",
+  "language": "cpp",
+  "language_score": 10,
+  "language_reason": "ext .cppx5",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains 'optix'",
+  "last_commit_date": "2020-02-04 08:06:01 +0100"
+ },
+ "cl-golang-generator": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 166,
+  "language_reason": "marker *.asd",
+  "cluster": "generators",
+  "confidence": "high",
+  "reason": "name contains 'generator'",
+  "last_commit_date": "2022-10-09 23:23:41 +0200"
+ },
+ "cl-grab-web": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "web-net",
+  "confidence": "high",
+  "reason": "manual override (web grabbing/scraping tool)",
+  "last_commit_date": "2018-02-13 08:34:25 +0100"
+ },
+ "cl-ics": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 28,
+  "language_reason": "marker *.asd",
+  "cluster": "imaging-optics",
+  "confidence": "medium",
+  "reason": "readme/log contains 'cytometry'",
+  "last_commit_date": "2014-07-07 13:26:53 +0200"
+ },
+ "cl-image-processing-intro": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'image processing'",
+  "last_commit_date": "2010-09-21 09:04:12 +0100"
+ },
+ "cl-interval-newton": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "science-math",
+  "confidence": "high",
+  "reason": "name contains 'newton'",
+  "last_commit_date": "2018-02-07 07:33:59 +0100"
+ },
+ "cl-js-generator": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 52,
+  "language_reason": "marker *.asd",
+  "cluster": "generators",
+  "confidence": "high",
+  "reason": "name contains 'generator'",
+  "last_commit_date": "2026-02-18 01:39:51 +0000"
+ },
+ "cl-julia-generator": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 25,
+  "language_reason": "marker *.asd",
+  "cluster": "generators",
+  "confidence": "high",
+  "reason": "name contains 'generator'",
+  "last_commit_date": "2022-01-08 11:58:22 +0100"
+ },
+ "cl-kotlin-generator": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 61,
+  "language_reason": "marker *.asd",
+  "cluster": "generators",
+  "confidence": "high",
+  "reason": "name contains 'generator'",
+  "last_commit_date": "2023-12-14 22:21:37 +0100"
+ },
+ "cl-ksimpsf": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'simpsf'",
+  "last_commit_date": "2010-01-27 08:24:23 +0000"
+ },
+ "cl-lbfgs": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "science-math",
+  "confidence": "high",
+  "reason": "name contains 'lbfgs'",
+  "last_commit_date": "2016-10-27 10:08:56 +0200"
+ },
+ "cl-learn-cells": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 9,
+  "language_reason": "ext .lispx3",
+  "cluster": "lisp-libs",
+  "confidence": "medium",
+  "reason": "language fallback (lisp)",
+  "last_commit_date": "2019-01-17 01:45:50 +0100"
+ },
+ "cl-libav": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'libav'",
+  "last_commit_date": "2012-10-20 14:39:29 +0200"
+ },
+ "cl-linux-debug": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 163,
+  "language_reason": "marker *.asd",
+  "cluster": "lisp-libs",
+  "confidence": "medium",
+  "reason": "language fallback (lisp)",
+  "last_commit_date": "2016-08-19 14:52:31 +0300"
+ },
+ "cl-m-generator": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 22,
+  "language_reason": "marker *.asd",
+  "cluster": "generators",
+  "confidence": "high",
+  "reason": "name contains 'generator'",
+  "last_commit_date": "2020-11-29 23:00:53 +0100"
+ },
+ "cl-ogl-shader": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains 'shader'",
+  "last_commit_date": "2011-03-06 19:13:11 +0000"
+ },
+ "cl-online-gnuplot": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 22,
+  "language_reason": "marker *.asd",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains 'gnuplot'",
+  "last_commit_date": "2026-02-18 01:02:37 +0000"
+ },
+ "cl-pdfscan": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 6,
+  "language_reason": "ext .lispx2",
+  "cluster": "lisp-libs",
+  "confidence": "high",
+  "reason": "manual override (PDF scanning utility in Lisp)",
+  "last_commit_date": "2010-08-22 22:23:23 +0100"
+ },
+ "cl-phase-space-plot": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "science-math",
+  "confidence": "high",
+  "reason": "name contains 'phase space'",
+  "last_commit_date": "2013-02-12 09:32:09 +0100"
+ },
+ "cl-photon-statistics": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'photon'",
+  "last_commit_date": "2016-08-04 01:17:24 +0200"
+ },
+ "cl-pipe-run": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "lisp-libs",
+  "confidence": "medium",
+  "reason": "language fallback (lisp)",
+  "last_commit_date": "2011-06-10 13:00:01 +0100"
+ },
+ "cl-pl2303": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "lisp-libs",
+  "confidence": "medium",
+  "reason": "language fallback (lisp)",
+  "last_commit_date": "2026-02-18 07:21:02 +0000"
+ },
+ "cl-primitive-fft": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "science-math",
+  "confidence": "high",
+  "reason": "name contains 'fft'",
+  "last_commit_date": "2010-11-25 00:14:56 +0000"
+ },
+ "cl-pure-x11": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 31,
+  "language_reason": "marker *.asd",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains 'x11'",
+  "last_commit_date": "2019-02-03 14:21:57 +0100"
+ },
+ "cl-py-finance": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 12,
+  "language_reason": "ext .lispx4",
+  "cluster": "finance",
+  "confidence": "high",
+  "reason": "name contains 'finance'",
+  "last_commit_date": "2020-07-16 22:28:09 +0200"
+ },
+ "cl-py-generator": {
+  "status": "ok",
+  "language": "python",
+  "language_score": 890,
+  "language_reason": "marker requirements.txt",
+  "cluster": "generators",
+  "confidence": "high",
+  "reason": "name contains 'generator'",
+  "last_commit_date": "2026-09-27 21:03:34 +0000"
+ },
+ "cl-r-generator": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 28,
+  "language_reason": "marker *.asd",
+  "cluster": "generators",
+  "confidence": "high",
+  "reason": "name contains 'generator'",
+  "last_commit_date": "2026-02-18 19:16:45 +0000"
+ },
+ "cl-raytrace-length": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 12,
+  "language_reason": "ext .lispx4",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains 'raytrace'",
+  "last_commit_date": "2012-10-29 14:29:48 +0100"
+ },
+ "cl-rs-amd-uprof-viewer": {
+  "status": "ok",
+  "language": "rust",
+  "language_score": 16,
+  "language_reason": "marker Cargo.toml",
+  "cluster": "science-math",
+  "confidence": "high",
+  "reason": "name contains 'uprof'",
+  "last_commit_date": "2020-02-23 03:55:15 +0100"
+ },
+ "cl-rust-adalm-pluto-glfw": {
+  "status": "ok",
+  "language": "rust",
+  "language_score": 13,
+  "language_reason": "marker Cargo.toml",
+  "cluster": "sdr-radio",
+  "confidence": "high",
+  "reason": "name contains 'pluto'",
+  "last_commit_date": "2026-02-18 00:58:47 +0000"
+ },
+ "cl-rust-adalm-pluto": {
+  "status": "ok",
+  "language": "rust",
+  "language_score": 13,
+  "language_reason": "marker Cargo.toml",
+  "cluster": "sdr-radio",
+  "confidence": "high",
+  "reason": "name contains 'pluto'",
+  "last_commit_date": "2020-03-02 08:39:27 +0100"
+ },
+ "cl-rust-cuda-vis": {
+  "status": "ok",
+  "language": "rust",
+  "language_score": 13,
+  "language_reason": "marker Cargo.toml",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains 'cuda'",
+  "last_commit_date": "2020-03-16 22:25:06 +0100"
+ },
+ "cl-rust-generator": {
+  "status": "ok",
+  "language": "rust",
+  "language_score": 1160,
+  "language_reason": "marker Cargo.toml",
+  "cluster": "generators",
+  "confidence": "high",
+  "reason": "name contains 'generator'",
+  "last_commit_date": "2026-10-04 19:10:37 +0000"
+ },
+ "cl-sdl2viewer": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains 'sdl'",
+  "last_commit_date": "2014-10-05 17:20:58 +0200"
+ },
+ "cl-sicp-eval": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "lisp-libs",
+  "confidence": "medium",
+  "reason": "language fallback (lisp)",
+  "last_commit_date": "2011-03-21 07:06:58 +0000"
+ },
+ "cl-swift-generator": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 22,
+  "language_reason": "marker *.asd",
+  "cluster": "generators",
+  "confidence": "high",
+  "reason": "name contains 'generator'",
+  "last_commit_date": "2020-04-18 13:44:55 +0200"
+ },
+ "cl-tcl-generator": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 22,
+  "language_reason": "marker *.asd",
+  "cluster": "generators",
+  "confidence": "high",
+  "reason": "name contains 'generator'",
+  "last_commit_date": "2021-09-12 17:00:42 +0200"
+ },
+ "cl-try-asdf3": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 25,
+  "language_reason": "marker *.asd",
+  "cluster": "lisp-libs",
+  "confidence": "medium",
+  "reason": "language fallback (lisp)",
+  "last_commit_date": "2018-08-30 10:10:34 +0200"
+ },
+ "cl-try-cells": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "lisp-libs",
+  "confidence": "medium",
+  "reason": "language fallback (lisp)",
+  "last_commit_date": "2018-11-20 23:30:45 +0100"
+ },
+ "cl-try-iup": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains 'iup'",
+  "last_commit_date": "2019-07-05 08:33:20 +0200"
+ },
+ "cl-try-lispworks": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "lisp-libs",
+  "confidence": "medium",
+  "reason": "language fallback (lisp)",
+  "last_commit_date": "2020-05-21 15:13:24 +0200"
+ },
+ "cl-try-matrix-js": {
+  "status": "ok",
+  "language": "js",
+  "language_score": 8,
+  "language_reason": "ext .jsx4",
+  "cluster": "web-net",
+  "confidence": "medium",
+  "reason": "language fallback (js)",
+  "last_commit_date": "2018-12-08 21:40:37 +0100"
+ },
+ "cl-try-websocket-webrtc-datachannel": {
+  "status": "ok",
+  "language": "js",
+  "language_score": 4,
+  "language_reason": "ext .jsx2",
+  "cluster": "web-net",
+  "confidence": "high",
+  "reason": "name contains 'websocket'",
+  "last_commit_date": "2019-02-04 08:47:06 +0100"
+ },
+ "cl-typescript-generator": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 22,
+  "language_reason": "marker *.asd",
+  "cluster": "generators",
+  "confidence": "high",
+  "reason": "name contains 'generator'",
+  "last_commit_date": "2024-02-12 00:27:32 +0100"
+ },
+ "cl-v4l2-tk": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 25,
+  "language_reason": "marker *.asd",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'v4l'",
+  "last_commit_date": "2011-03-09 00:14:31 +0000"
+ },
+ "cl-v4l2": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 52,
+  "language_reason": "marker *.asd",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'v4l'",
+  "last_commit_date": "2014-01-24 22:57:05 +0100"
+ },
+ "cl-vba-generator": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 22,
+  "language_reason": "marker *.asd",
+  "cluster": "generators",
+  "confidence": "high",
+  "reason": "name contains 'generator'",
+  "last_commit_date": "2021-11-25 16:09:43 +0100"
+ },
+ "cl-vbox-vdi-repair": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "lisp-libs",
+  "confidence": "medium",
+  "reason": "language fallback (lisp)",
+  "last_commit_date": "2016-06-14 14:06:18 +0200"
+ },
+ "cl-vector-algebra-simplifier": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "lisp-libs",
+  "confidence": "medium",
+  "reason": "language fallback (lisp)",
+  "last_commit_date": "2017-10-16 00:00:38 +0200"
+ },
+ "cl-verilog-generator": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 31,
+  "language_reason": "marker *.asd",
+  "cluster": "generators",
+  "confidence": "high",
+  "reason": "name contains 'generator'",
+  "last_commit_date": "2021-12-12 08:38:51 +0100"
+ },
+ "cl-vhdl": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 9,
+  "language_reason": "ext .lispx3",
+  "cluster": "embedded-fpga",
+  "confidence": "high",
+  "reason": "name contains 'vhdl'",
+  "last_commit_date": "2016-09-24 13:50:47 +0200"
+ },
+ "cl-vpx": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 22,
+  "language_reason": "marker *.asd",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'vpx'",
+  "last_commit_date": "2016-01-26 13:36:00 +0100"
+ },
+ "cl-web-ui": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "web-net",
+  "confidence": "high",
+  "reason": "manual override (web UI in Common Lisp)",
+  "last_commit_date": "2013-01-18 18:27:13 +0100"
+ },
+ "cl-week-calendar": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "lisp-libs",
+  "confidence": "medium",
+  "reason": "language fallback (lisp)",
+  "last_commit_date": "2011-07-28 18:12:15 +0100"
+ },
+ "cl-wolfram-generator": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 22,
+  "language_reason": "marker *.asd",
+  "cluster": "generators",
+  "confidence": "high",
+  "reason": "name contains 'generator'",
+  "last_commit_date": "2019-05-23 08:54:24 +0200"
+ },
+ "cl-yasm-golang": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 19,
+  "language_reason": "marker *.asd",
+  "cluster": "lisp-libs",
+  "confidence": "medium",
+  "reason": "language fallback (lisp)",
+  "last_commit_date": "2019-07-19 09:23:18 +0200"
+ },
+ "cl_ctl_colab": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "web-net",
+  "confidence": "high",
+  "reason": "manual override (Selenium browser automation for colab (tool is web automation))",
+  "last_commit_date": "2019-03-23 13:37:50 +0100"
+ },
+ "cl_ctl_linkedin": {
+  "status": "ok",
+  "language": "python",
+  "language_score": 6,
+  "language_reason": "ext .pyx2",
+  "cluster": "web-net",
+  "confidence": "medium",
+  "reason": "readme/log contains 'selenium'",
+  "last_commit_date": "2019-03-21 09:48:21 +0100"
+ },
+ "cl_nbdev_test": {
+  "status": "ok",
+  "language": "web",
+  "language_score": 36,
+  "language_reason": "ext .htmlx27",
+  "cluster": "docs-meta",
+  "confidence": "high",
+  "reason": "manual override (nbdev template test)",
+  "last_commit_date": "2021-01-13 23:23:10 +0100"
+ },
+ "clem-sim": {
+  "status": "ok",
+  "language": "latex",
+  "language_score": 3,
+  "language_reason": "ext .bibx1",
+  "cluster": "docs-meta",
+  "confidence": "medium",
+  "reason": "language fallback (latex)",
+  "last_commit_date": "2009-08-12 19:01:14 +0100"
+ },
+ "clicc": {
+  "status": "ok",
+  "language": "c",
+  "language_score": 2381,
+  "language_reason": "marker Makefile",
+  "cluster": "lisp-libs",
+  "confidence": "high",
+  "reason": "manual override (CL-to-C compiler)",
+  "last_commit_date": "2016-07-08 01:08:47 +0200"
+ },
+ "clj-old-code": {
+  "status": "ok",
+  "language": "clojure",
+  "language_score": 9,
+  "language_reason": "ext .cljx3",
+  "cluster": "imaging-optics",
+  "confidence": "medium",
+  "reason": "readme/log contains 'micromanager'",
+  "last_commit_date": "2015-09-19 16:40:37 +0200"
+ },
+ "clj-superap": {
+  "status": "ok",
+  "language": "clojure",
+  "language_score": 6,
+  "language_reason": "ext .cljx2",
+  "cluster": "mobile",
+  "confidence": "high",
+  "reason": "manual override (Clojure Android app (APK/adb))",
+  "last_commit_date": "2015-09-19 16:13:52 +0200"
+ },
+ "coalton-rust-generator": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 40,
+  "language_reason": "marker *.asd",
+  "cluster": "generators",
+  "confidence": "high",
+  "reason": "name contains 'generator'",
+  "last_commit_date": "2026-03-07 07:15:40 +0000"
+ },
+ "compare_python_plotting": {
+  "status": "ok",
+  "language": "python",
+  "language_score": 9,
+  "language_reason": "ext .pyx3",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains 'plotting'",
+  "last_commit_date": "2018-09-01 21:09:56 +0200"
+ },
+ "convdicom": {
+  "status": "ok",
+  "language": "python",
+  "language_score": 13,
+  "language_reason": "marker pyproject.toml",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'dicom'",
+  "last_commit_date": "2026-01-22 20:26:13 +0000"
+ },
+ "copernicus-radar": {
+  "status": "ok",
+  "language": "cpp",
+  "language_score": 44,
+  "language_reason": "marker CMakeLists.txt",
+  "cluster": "sdr-radio",
+  "confidence": "high",
+  "reason": "name contains 'radar'",
+  "last_commit_date": "2021-02-27 11:00:01 +0100"
+ },
+ "copy-cat": {
+  "status": "ok",
+  "language": "c",
+  "language_score": 2,
+  "language_reason": "ext .cx1",
+  "cluster": "ml-ai",
+  "confidence": "high",
+  "reason": "manual override (Hofstadter/Mitchell Copycat cognitive architecture)",
+  "last_commit_date": "2013-10-28 18:52:03 +0000"
+ },
+ "cpp-hough-trafo": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'hough'",
+  "last_commit_date": "2009-08-02 22:44:00 +0100"
+ },
+ "cpp-interp2d": {
+  "status": "ok",
+  "language": "cpp",
+  "language_score": 2,
+  "language_reason": "ext .cppx1",
+  "cluster": "science-math",
+  "confidence": "high",
+  "reason": "manual override (2D interpolation numerics)",
+  "last_commit_date": "2009-08-04 22:50:49 +0100"
+ },
+ "cpp-worm-convolve": {
+  "status": "ok",
+  "language": "cpp",
+  "language_score": 2,
+  "language_reason": "ext .cppx1",
+  "cluster": "science-math",
+  "confidence": "medium",
+  "reason": "readme/log contains 'simulated annealing'",
+  "last_commit_date": "2010-05-14 19:40:29 +0100"
+ },
+ "cytometry-umap-plot": {
+  "status": "ok",
+  "language": "python",
+  "language_score": 28,
+  "language_reason": "marker pyproject.toml",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'cytometry'",
+  "last_commit_date": "2025-08-10 16:51:05 +0200"
+ },
+ "dic-simul": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'dic'",
+  "last_commit_date": "2009-12-10 18:28:43 +0000"
+ },
+ "dijk": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "science-math",
+  "confidence": "high",
+  "reason": "name contains 'dijk'",
+  "last_commit_date": "2010-11-11 23:21:48 +0000"
+ },
+ "diplisp": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "lisp-libs",
+  "confidence": "medium",
+  "reason": "language fallback (lisp)",
+  "last_commit_date": "2013-04-21 14:08:04 +0200"
+ },
+ "diploma_thesis": {
+  "status": "ok",
+  "language": "docs",
+  "language_score": 1,
+  "language_reason": "ext .pdfx1",
+  "cluster": "docs-meta",
+  "confidence": "high",
+  "reason": "name contains 'thesis'",
+  "last_commit_date": "2018-09-19 08:41:49 +0200"
+ },
+ "dokdok2012": {
+  "status": "ok",
+  "language": "latex",
+  "language_score": 2,
+  "language_reason": "ext .texx1",
+  "cluster": "docs-meta",
+  "confidence": "high",
+  "reason": "name contains 'dokdok'",
+  "last_commit_date": "2012-06-29 13:02:12 +0200"
+ },
+ "dotemacs": {
+  "status": "ok",
+  "language": "python",
+  "language_score": 6,
+  "language_reason": "ext .pyx2",
+  "cluster": "docs-meta",
+  "confidence": "high",
+  "reason": "name contains 'dotemacs'",
+  "last_commit_date": "2026-06-07 10:24:13 +0000"
+ },
+ "dwm": {
+  "status": "empty",
+  "cluster": null,
+  "language": null
+ },
+ "ecl-termux-binary": {
+  "status": "ok",
+  "language": "docs",
+  "language_score": 1,
+  "language_reason": "ext .mdx1",
+  "cluster": "lisp-libs",
+  "confidence": "high",
+  "reason": "manual override (ECL Lisp binary for Termux)",
+  "last_commit_date": "2019-07-09 00:58:32 +0200"
+ },
+ "esp32-c3-adc-nanopb": {
+  "status": "ok",
+  "language": "cpp",
+  "language_score": 12,
+  "language_reason": "marker CMakeLists.txt",
+  "cluster": "embedded-fpga",
+  "confidence": "high",
+  "reason": "name contains 'esp32'",
+  "last_commit_date": "2026-04-30 17:51:30 +0000"
+ },
+ "etherbone-core": {
+  "status": "ok",
+  "language": "c",
+  "language_score": 125,
+  "language_reason": "marker Makefile",
+  "cluster": "embedded-fpga",
+  "confidence": "high",
+  "reason": "name contains 'etherbone'",
+  "last_commit_date": "2025-04-09 14:43:47 +0200"
+ },
+ "fcs-plotter": {
+  "status": "ok",
+  "language": "python",
+  "language_score": 49,
+  "language_reason": "marker pyproject.toml",
+  "cluster": "imaging-optics",
+  "confidence": "medium",
+  "reason": "readme/log contains 'cytometry'",
+  "last_commit_date": "2025-08-10 17:04:40 +0200"
+ },
+ "fem": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "science-math",
+  "confidence": "high",
+  "reason": "name contains 'fem'",
+  "last_commit_date": "2013-01-25 12:23:04 +0100"
+ },
+ "fiber-holo": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 6,
+  "language_reason": "ext .lispx2",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'fiber'",
+  "last_commit_date": "2026-02-18 00:55:36 +0000"
+ },
+ "gauss-fit": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'gaussfit'",
+  "last_commit_date": "2011-05-22 23:34:27 +0100"
+ },
+ "gemini-competition": {
+  "status": "ok",
+  "language": "python",
+  "language_score": 3,
+  "language_reason": "ext .pyx1",
+  "cluster": "ml-ai",
+  "confidence": "high",
+  "reason": "name contains 'gemini'",
+  "last_commit_date": "2024-08-17 08:53:02 +0200"
+ },
+ "gemini-normalize-links": {
+  "status": "ok",
+  "language": "python",
+  "language_score": 16,
+  "language_reason": "marker pyproject.toml",
+  "cluster": "ml-ai",
+  "confidence": "high",
+  "reason": "name contains 'gemini'",
+  "last_commit_date": "2025-08-16 13:07:43 +0200"
+ },
+ "gemini-summary-embedding": {
+  "status": "ok",
+  "language": "python",
+  "language_score": 25,
+  "language_reason": "marker pyproject.toml",
+  "cluster": "ml-ai",
+  "confidence": "high",
+  "reason": "name contains 'gemini'",
+  "last_commit_date": "2026-01-20 19:34:42 +0100"
+ },
+ "github-repo-traffic-stats": {
+  "status": "ok",
+  "language": "python",
+  "language_score": 22,
+  "language_reason": "marker requirements.txt",
+  "cluster": "docs-meta",
+  "confidence": "high",
+  "reason": "name contains 'traffic'",
+  "last_commit_date": "2026-04-11 13:35:36 +0000"
+ },
+ "glfw-path": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains 'glfw'",
+  "last_commit_date": "2012-08-29 09:44:47 +0200"
+ },
+ "glfw-path.wiki": {
+  "status": "wiki",
+  "cluster": null,
+  "language": null
+ },
+ "glfw": {
+  "status": "ok",
+  "language": "c",
+  "language_score": 4,
+  "language_reason": "ext .cx2",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains 'glfw'",
+  "last_commit_date": "2011-07-07 09:28:59 +0100"
+ },
+ "glraw": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "manual override (raw OpenGL experiments)",
+  "last_commit_date": "2011-07-06 00:31:53 +0100"
+ },
+ "hanser-phase-retrieval": {
+  "status": "ok",
+  "language": "matlab",
+  "language_score": 16,
+  "language_reason": "ext .mx8",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'phase retrieval'",
+  "last_commit_date": "2015-11-10 11:32:33 +0100"
+ },
+ "hbbp": {
+  "status": "ok",
+  "language": "c",
+  "language_score": 10,
+  "language_reason": "marker Makefile",
+  "cluster": "web-net",
+  "confidence": "medium",
+  "reason": "readme/log contains 'wireshark'",
+  "last_commit_date": "2013-06-26 17:47:13 +0200"
+ },
+ "hdfogl": {
+  "status": "ok",
+  "language": "python",
+  "language_score": 3,
+  "language_reason": "ext .pyx1",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "manual override (HDF5 + OpenGL viewer)",
+  "last_commit_date": "2011-08-26 08:40:54 +0200"
+ },
+ "hello_quest": {
+  "status": "ok",
+  "language": "c",
+  "language_score": 5,
+  "language_reason": "ext .cx2",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains 'quest'",
+  "last_commit_date": "2022-12-19 18:45:53 +0100"
+ },
+ "html5_surveillance": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 9,
+  "language_reason": "ext .lispx3",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'surveillance'",
+  "last_commit_date": "2026-02-18 01:51:02 +0000"
+ },
+ "http-jq-raw-png": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 25,
+  "language_reason": "marker *.asd",
+  "cluster": "web-net",
+  "confidence": "high",
+  "reason": "name contains 'http'",
+  "last_commit_date": "2011-05-08 23:37:41 +0100"
+ },
+ "hypermedia-systems-book-summary": {
+  "status": "ok",
+  "language": "docs",
+  "language_score": 3,
+  "language_reason": "ext .mdx2",
+  "cluster": "docs-meta",
+  "confidence": "high",
+  "reason": "name contains 'hypermedia'",
+  "last_commit_date": "2025-10-13 09:35:00 +0200"
+ },
+ "imgui": {
+  "status": "ok",
+  "language": "cpp",
+  "language_score": 94,
+  "language_reason": "marker CMakeLists.txt",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains 'imgui'",
+  "last_commit_date": "2024-01-25 16:51:07 +0100"
+ },
+ "interactive-cimg-c-": {
+  "status": "ok",
+  "language": "c",
+  "language_score": 5,
+  "language_reason": "ext .hx3",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'cimg'",
+  "last_commit_date": "2015-01-20 15:14:02 +0000"
+ },
+ "jaxopt_paper_german": {
+  "status": "ok",
+  "language": "latex",
+  "language_score": 4,
+  "language_reason": "ext .texx2",
+  "cluster": "ml-ai",
+  "confidence": "high",
+  "reason": "name contains 'jaxopt'",
+  "last_commit_date": "2024-06-29 14:52:06 +0200"
+ },
+ "kdtree-90": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 19,
+  "language_reason": "marker *.asd",
+  "cluster": "science-math",
+  "confidence": "high",
+  "reason": "name contains 'k-d tree'",
+  "last_commit_date": "2010-07-21 20:02:28 +0100"
+ },
+ "kepler": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "lisp-libs",
+  "confidence": "medium",
+  "reason": "language fallback (lisp)",
+  "last_commit_date": "2015-11-20 00:21:56 +0100"
+ },
+ "kielhorn": {
+  "status": "ok",
+  "language": "latex",
+  "language_score": 38,
+  "language_reason": "ext .texx18",
+  "cluster": "docs-meta",
+  "confidence": "medium",
+  "reason": "language fallback (latex)",
+  "last_commit_date": "2012-12-14 20:35:23 +0100"
+ },
+ "kmrcl": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 118,
+  "language_reason": "marker *.asd",
+  "cluster": "lisp-libs",
+  "confidence": "medium",
+  "reason": "language fallback (lisp)",
+  "last_commit_date": "2013-10-28 17:43:06 +0000"
+ },
+ "lattice_fpga_test": {
+  "status": "ok",
+  "language": "verilog",
+  "language_score": 12,
+  "language_reason": "ext .vx6",
+  "cluster": "embedded-fpga",
+  "confidence": "high",
+  "reason": "name contains 'lattice'",
+  "last_commit_date": "2015-08-04 01:54:25 +0200"
+ },
+ "lcos-cam-calib": {
+  "status": "ok",
+  "language": "cpp",
+  "language_score": 4,
+  "language_reason": "ext .cppx2",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'calib'",
+  "last_commit_date": "2009-08-05 12:11:43 +0100"
+ },
+ "lcos-ogl-draw": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'lcos'",
+  "last_commit_date": "2010-03-12 08:25:27 +0000"
+ },
+ "lean-py-generator": {
+  "status": "ok",
+  "language": "docs",
+  "language_score": 8,
+  "language_reason": "ext .mdx7",
+  "cluster": "generators",
+  "confidence": "high",
+  "reason": "name contains 'generator'",
+  "last_commit_date": "2026-07-31 22:41:45 +0000"
+ },
+ "learn-cl-object-orient": {
+  "status": "empty",
+  "cluster": null,
+  "language": null
+ },
+ "learn_ada_simple_task": {
+  "status": "ok",
+  "language": "ada",
+  "language_score": 3,
+  "language_reason": "ext .adbx1",
+  "cluster": "docs-meta",
+  "confidence": "high",
+  "reason": "manual override (Ada learning exercise)",
+  "last_commit_date": "2017-12-01 09:13:01 +0100"
+ },
+ "learn_emacs_completion": {
+  "status": "ok",
+  "language": "elisp",
+  "language_score": 9,
+  "language_reason": "ext .elx3",
+  "cluster": "docs-meta",
+  "confidence": "high",
+  "reason": "name contains 'emacs'",
+  "last_commit_date": "2017-12-16 16:27:07 +0100"
+ },
+ "learn_py_iio": {
+  "status": "ok",
+  "language": "python",
+  "language_score": 9,
+  "language_reason": "ext .pyx3",
+  "cluster": "sdr-radio",
+  "confidence": "medium",
+  "reason": "readme/log contains 'pluto'",
+  "last_commit_date": "2019-07-06 13:16:53 +0200"
+ },
+ "led-strip": {
+  "status": "ok",
+  "language": "verilog",
+  "language_score": 10,
+  "language_reason": "ext .vx5",
+  "cluster": "embedded-fpga",
+  "confidence": "high",
+  "reason": "name contains 'led strip'",
+  "last_commit_date": "2013-08-19 12:57:11 -0700"
+ },
+ "ledtlc": {
+  "status": "ok",
+  "language": "arduino",
+  "language_score": 13,
+  "language_reason": "marker *.ino",
+  "cluster": "embedded-fpga",
+  "confidence": "medium",
+  "reason": "language fallback (arduino)",
+  "last_commit_date": "2012-12-05 18:24:40 +0100"
+ },
+ "lens-doc": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 43,
+  "language_reason": "marker *.asd",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'lens'",
+  "last_commit_date": "2011-05-01 15:08:37 +0100"
+ },
+ "lens": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 61,
+  "language_reason": "marker *.asd",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'lens'",
+  "last_commit_date": "2010-09-05 22:29:02 +0100"
+ },
+ "libcoro": {
+  "status": "ok",
+  "language": "cpp",
+  "language_score": 206,
+  "language_reason": "marker CMakeLists.txt",
+  "cluster": "cpp-projects",
+  "confidence": "high",
+  "reason": "manual override (C++ coroutine library)",
+  "last_commit_date": "2024-06-21 20:38:37 +0200"
+ },
+ "linrad": {
+  "status": "ok",
+  "language": "c",
+  "language_score": 358,
+  "language_reason": "ext .cx161",
+  "cluster": "sdr-radio",
+  "confidence": "high",
+  "reason": "name contains 'linrad'",
+  "last_commit_date": "2026-08-08 05:50:48 +0000"
+ },
+ "lisp-http": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 19,
+  "language_reason": "marker *.asd",
+  "cluster": "web-net",
+  "confidence": "high",
+  "reason": "name contains 'http'",
+  "last_commit_date": "2016-06-06 12:07:14 +0200"
+ },
+ "lisp-kdtree": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "science-math",
+  "confidence": "high",
+  "reason": "name contains 'k-d tree'",
+  "last_commit_date": "2010-07-18 22:02:25 +0100"
+ },
+ "lisp-kdtree.wiki": {
+  "status": "wiki",
+  "cluster": null,
+  "language": null
+ },
+ "logic": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 31,
+  "language_reason": "marker *.asd",
+  "cluster": "science-math",
+  "confidence": "medium",
+  "reason": "readme/log contains 'prolog'",
+  "last_commit_date": "2010-09-12 23:18:20 +0100"
+ },
+ "matlab-apotome-sim": {
+  "status": "ok",
+  "language": "matlab",
+  "language_score": 2,
+  "language_reason": "ext .mx1",
+  "cluster": "science-math",
+  "confidence": "high",
+  "reason": "name contains 'matlab'",
+  "last_commit_date": "2012-01-17 16:47:23 +0100"
+ },
+ "matlab-hilo-sim": {
+  "status": "ok",
+  "language": "matlab",
+  "language_score": 24,
+  "language_reason": "ext .mx12",
+  "cluster": "science-math",
+  "confidence": "high",
+  "reason": "name contains 'matlab'",
+  "last_commit_date": "2009-08-27 12:28:37 +0100"
+ },
+ "matlab-mma-resample-sim": {
+  "status": "ok",
+  "language": "matlab",
+  "language_score": 2,
+  "language_reason": "ext .mx1",
+  "cluster": "science-math",
+  "confidence": "high",
+  "reason": "name contains 'matlab'",
+  "last_commit_date": "2010-11-11 14:41:19 +0000"
+ },
+ "matlab-mma-sim": {
+  "status": "ok",
+  "language": "matlab",
+  "language_score": 16,
+  "language_reason": "ext .mx8",
+  "cluster": "science-math",
+  "confidence": "high",
+  "reason": "name contains 'matlab'",
+  "last_commit_date": "2010-10-27 00:07:33 +0100"
+ },
+ "mbti": {
+  "status": "ok",
+  "language": "docs",
+  "language_score": 7,
+  "language_reason": "ext .mdx6",
+  "cluster": "docs-meta",
+  "confidence": "high",
+  "reason": "manual override (personality test notes)",
+  "last_commit_date": "2026-10-02 06:56:39 +0000"
+ },
+ "memi-alignment": {
+  "status": "ok",
+  "language": "latex",
+  "language_score": 2,
+  "language_reason": "ext .texx1",
+  "cluster": "imaging-optics",
+  "confidence": "medium",
+  "reason": "readme/log contains 'lcos'",
+  "last_commit_date": "2011-02-21 10:40:34 +0000"
+ },
+ "memi-eps-pic-gen": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "imaging-optics",
+  "confidence": "medium",
+  "reason": "readme/log contains 'lcos'",
+  "last_commit_date": "2011-01-20 03:02:04 +0000"
+ },
+ "memi": {
+  "status": "ok",
+  "language": "matlab",
+  "language_score": 4,
+  "language_reason": "ext .mx2",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "manual override (MEMI microscope gaussian measurements)",
+  "last_commit_date": "2010-11-03 01:15:54 +0000"
+ },
+ "microman-sdl-slm": {
+  "status": "ok",
+  "language": "cpp",
+  "language_score": 2,
+  "language_reason": "ext .cppx1",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'slm'",
+  "last_commit_date": "2010-03-26 11:02:34 +0000"
+ },
+ "microman-v4l-device": {
+  "status": "ok",
+  "language": "cpp",
+  "language_score": 4,
+  "language_reason": "ext .cppx2",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'v4l'",
+  "last_commit_date": "2010-03-10 14:06:36 +0000"
+ },
+ "micromanager-london-kings": {
+  "status": "ok",
+  "language": "unknown",
+  "language_score": 0,
+  "language_reason": "no signal",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'micromanager'",
+  "last_commit_date": "2009-07-01 13:22:02 +0000"
+ },
+ "mikroskopie-uebung": {
+  "status": "ok",
+  "language": "latex",
+  "language_score": 11,
+  "language_reason": "ext .texx5",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'mikroskop'",
+  "last_commit_date": "2015-01-12 12:50:34 +0100"
+ },
+ "mk-c-repl": {
+  "status": "ok",
+  "language": "c",
+  "language_score": 5,
+  "language_reason": "ext .cx2",
+  "cluster": "cpp-projects",
+  "confidence": "medium",
+  "reason": "language fallback (c)",
+  "last_commit_date": "2014-12-31 16:43:18 +0100"
+ },
+ "mlib": {
+  "status": "ok",
+  "language": "cpp",
+  "language_score": 320,
+  "language_reason": "marker CMakeLists.txt",
+  "cluster": "imaging-optics",
+  "confidence": "medium",
+  "reason": "readme/log contains 'opencv'",
+  "last_commit_date": "2021-12-07 19:11:03 +0100"
+ },
+ "mma-bla": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 304,
+  "language_reason": "marker *.asd",
+  "cluster": "imaging-optics",
+  "confidence": "medium",
+  "reason": "readme/log contains 'micromanager'",
+  "last_commit_date": "2011-08-11 14:08:58 +0100"
+ },
+ "mma": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 310,
+  "language_reason": "marker *.asd",
+  "cluster": "imaging-optics",
+  "confidence": "medium",
+  "reason": "readme/log contains 'micromanager'",
+  "last_commit_date": "2012-06-03 14:12:25 +0200"
+ },
+ "mnist-svd-tsne": {
+  "status": "ok",
+  "language": "cpp",
+  "language_score": 4,
+  "language_reason": "ext .cppx2",
+  "cluster": "ml-ai",
+  "confidence": "high",
+  "reason": "name contains 'mnist'",
+  "last_commit_date": "2013-12-09 21:00:59 +0100"
+ },
+ "modern_c-": {
+  "status": "ok",
+  "language": "cpp",
+  "language_score": 2,
+  "language_reason": "ext .cppx1",
+  "cluster": "cpp-projects",
+  "confidence": "medium",
+  "reason": "language fallback (cpp)",
+  "last_commit_date": "2017-01-21 07:48:03 +0100"
+ },
+ "mosh-tcp": {
+  "status": "ok",
+  "language": "rust",
+  "language_score": 80,
+  "language_reason": "marker Cargo.toml",
+  "cluster": "web-net",
+  "confidence": "high",
+  "reason": "name contains 'mosh'",
+  "last_commit_date": "2026-09-09 05:21:11 +0000"
+ },
+ "mycloj": {
+  "status": "ok",
+  "language": "clojure",
+  "language_score": 6,
+  "language_reason": "ext .cljx2",
+  "cluster": "lisp-libs",
+  "confidence": "medium",
+  "reason": "language fallback (clojure)",
+  "last_commit_date": "2013-07-18 20:48:22 +0200"
+ },
+ "napa-fft3-test-2d": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "science-math",
+  "confidence": "high",
+  "reason": "name contains 'fft'",
+  "last_commit_date": "2026-02-18 00:50:10 +0000"
+ },
+ "nd-array-ypnos": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "lisp-libs",
+  "confidence": "medium",
+  "reason": "language fallback (lisp)",
+  "last_commit_date": "2011-03-01 06:00:02 +0000"
+ },
+ "neuro-term-rs": {
+  "status": "ok",
+  "language": "rust",
+  "language_score": 22,
+  "language_reason": "marker Cargo.toml",
+  "cluster": "ml-ai",
+  "confidence": "medium",
+  "reason": "readme/log contains 'gemini'",
+  "last_commit_date": "2026-02-16 23:05:41 +0000"
+ },
+ "nmr-seminar": {
+  "status": "ok",
+  "language": "web",
+  "language_score": 1,
+  "language_reason": "ext .htmlx1",
+  "cluster": "docs-meta",
+  "confidence": "high",
+  "reason": "name contains 'seminar'",
+  "last_commit_date": "2014-04-10 16:39:28 +0200"
+ },
+ "ogp-doc": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "lisp-libs",
+  "confidence": "medium",
+  "reason": "language fallback (lisp)",
+  "last_commit_date": "2011-06-30 01:56:51 +0100"
+ },
+ "olcUTIL_Geometry2D": {
+  "status": "ok",
+  "language": "cpp",
+  "language_score": 8,
+  "language_reason": "marker CMakeLists.txt",
+  "cluster": "imaging-optics",
+  "confidence": "medium",
+  "reason": "readme/log contains 'hough'",
+  "last_commit_date": "2024-02-23 01:48:03 +0100"
+ },
+ "olisun_psych": {
+  "status": "ok",
+  "language": "docs",
+  "language_score": 9,
+  "language_reason": "ext .mdx7",
+  "cluster": "docs-meta",
+  "confidence": "medium",
+  "reason": "readme/log contains 'retreat'",
+  "last_commit_date": "2026-01-07 09:06:07 +0100"
+ },
+ "opencl-volume-raymarch": {
+  "status": "ok",
+  "language": "c",
+  "language_score": 4,
+  "language_reason": "marker Makefile",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains 'raymarch'",
+  "last_commit_date": "2012-09-09 16:08:32 +0200"
+ },
+ "opencl-volume-raymarch.wiki": {
+  "status": "wiki",
+  "cluster": null,
+  "language": null
+ },
+ "opencv-eyetrack-3dwin": {
+  "status": "ok",
+  "language": "cpp",
+  "language_score": 6,
+  "language_reason": "marker CMakeLists.txt",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'opencv'",
+  "last_commit_date": "2012-11-25 23:53:20 +0100"
+ },
+ "ouroboros": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 43,
+  "language_reason": "marker *.asd",
+  "cluster": "lisp-libs",
+  "confidence": "medium",
+  "reason": "language fallback (lisp)",
+  "last_commit_date": "2024-05-16 18:41:51 +0200"
+ },
+ "pages": {
+  "status": "ok",
+  "language": "shell",
+  "language_score": 1,
+  "language_reason": "ext .shx1",
+  "cluster": "docs-meta",
+  "confidence": "medium",
+  "reason": "language fallback (shell)",
+  "last_commit_date": "2021-01-10 11:23:23 +0100"
+ },
+ "papipp": {
+  "status": "ok",
+  "language": "cpp",
+  "language_score": 8,
+  "language_reason": "marker CMakeLists.txt",
+  "cluster": "science-math",
+  "confidence": "medium",
+  "reason": "readme/log contains 'papi'",
+  "last_commit_date": "2025-02-25 08:45:58 +0100"
+ },
+ "pascalc": {
+  "status": "ok",
+  "language": "pascal",
+  "language_score": 4,
+  "language_reason": "ext .pasx2",
+  "cluster": "cpp-projects",
+  "confidence": "medium",
+  "reason": "language fallback (pascal)",
+  "last_commit_date": "2025-10-17 20:25:40 +0200"
+ },
+ "pge_treemap": {
+  "status": "ok",
+  "language": "cpp",
+  "language_score": 24,
+  "language_reason": "marker CMakeLists.txt",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains 'treemap'",
+  "last_commit_date": "2026-09-16 06:42:33 +0000"
+ },
+ "phd_thesis_final": {
+  "status": "ok",
+  "language": "docs",
+  "language_score": 1,
+  "language_reason": "ext .pdfx1",
+  "cluster": "docs-meta",
+  "confidence": "high",
+  "reason": "name contains 'thesis'",
+  "last_commit_date": "2016-09-24 13:06:01 +0200"
+ },
+ "phys_chem_versuch10": {
+  "status": "ok",
+  "language": "latex",
+  "language_score": 2,
+  "language_reason": "ext .texx1",
+  "cluster": "docs-meta",
+  "confidence": "medium",
+  "reason": "language fallback (latex)",
+  "last_commit_date": "2012-10-05 19:07:06 +0200"
+ },
+ "picosim-arduino-due": {
+  "status": "ok",
+  "language": "arduino",
+  "language_score": 13,
+  "language_reason": "marker *.ino",
+  "cluster": "embedded-fpga",
+  "confidence": "high",
+  "reason": "name contains 'arduino'",
+  "last_commit_date": "2014-10-28 19:03:33 +0100"
+ },
+ "pifoc": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 25,
+  "language_reason": "marker *.asd",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'pifoc'",
+  "last_commit_date": "2011-02-24 08:12:01 +0000"
+ },
+ "pipico2w-adc-nanopb": {
+  "status": "ok",
+  "language": "cpp",
+  "language_score": 6,
+  "language_reason": "marker CMakeLists.txt",
+  "cluster": "embedded-fpga",
+  "confidence": "high",
+  "reason": "name contains 'nanopb'",
+  "last_commit_date": "2026-04-23 22:08:24 +0000"
+ },
+ "pixel-perfect": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "imaging-optics",
+  "confidence": "medium",
+  "reason": "readme/log contains 'grating'",
+  "last_commit_date": "2011-08-10 01:36:16 +0100"
+ },
+ "play_with_clasp": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "lisp-libs",
+  "confidence": "high",
+  "reason": "manual override (Clasp Lisp experiments)",
+  "last_commit_date": "2021-11-01 00:23:04 +0100"
+ },
+ "play_with_queues": {
+  "status": "ok",
+  "language": "cpp",
+  "language_score": 6,
+  "language_reason": "marker CMakeLists.txt",
+  "cluster": "cpp-projects",
+  "confidence": "medium",
+  "reason": "language fallback (cpp)",
+  "last_commit_date": "2025-08-15 08:00:23 +0200"
+ },
+ "plops-pages": {
+  "status": "ok",
+  "language": "web",
+  "language_score": 3,
+  "language_reason": "ext .cssx2",
+  "cluster": "web-net",
+  "confidence": "medium",
+  "reason": "language fallback (web)",
+  "last_commit_date": "2012-07-16 00:57:53 -0700"
+ },
+ "plops.github.com": {
+  "status": "ok",
+  "language": "docs",
+  "language_score": 1,
+  "language_reason": "ext .mdx1",
+  "cluster": "docs-meta",
+  "confidence": "high",
+  "reason": "manual override (octopress blog)",
+  "last_commit_date": "2013-05-23 04:04:58 -0700"
+ },
+ "plops.github.io": {
+  "status": "ok",
+  "language": "js",
+  "language_score": 16,
+  "language_reason": "ext .jsx8",
+  "cluster": "web-net",
+  "confidence": "medium",
+  "reason": "language fallback (js)",
+  "last_commit_date": "2021-01-10 19:39:08 +0100"
+ },
+ "pnmftscale": {
+  "status": "ok",
+  "language": "cpp",
+  "language_score": 2,
+  "language_reason": "ext .cppx1",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "manual override (Fourier scaling of PNM images)",
+  "last_commit_date": "2009-08-09 21:18:19 +0100"
+ },
+ "pocketbook360": {
+  "status": "ok",
+  "language": "docs",
+  "language_score": 1,
+  "language_reason": "ext .orgx1",
+  "cluster": "embedded-fpga",
+  "confidence": "high",
+  "reason": "manual override (e-reader firmware modding (swupdate checksum))",
+  "last_commit_date": "2012-07-16 23:38:20 +0200"
+ },
+ "py-sam": {
+  "status": "ok",
+  "language": "python",
+  "language_score": 13,
+  "language_reason": "marker pyproject.toml",
+  "cluster": "embedded-fpga",
+  "confidence": "high",
+  "reason": "manual override (SAM31 MCU barcode demo, not Segment Anything)",
+  "last_commit_date": "2026-08-29 04:44:13 +0000"
+ },
+ "py-stars": {
+  "status": "ok",
+  "language": "python",
+  "language_score": 112,
+  "language_reason": "marker pyproject.toml",
+  "cluster": "science-math",
+  "confidence": "high",
+  "reason": "manual override (smartphone astrophotography, plate solving)",
+  "last_commit_date": "2026-08-31 21:54:21 +0000"
+ },
+ "py_kaggle_house_price": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "ml-ai",
+  "confidence": "high",
+  "reason": "name contains 'kaggle'",
+  "last_commit_date": "2019-04-14 21:00:11 +0200"
+ },
+ "py_scrape_leb": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "web-net",
+  "confidence": "high",
+  "reason": "name contains 'scrap'",
+  "last_commit_date": "2018-12-04 08:53:47 +0100"
+ },
+ "py_scrape_stuff": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 18,
+  "language_reason": "ext .lispx6",
+  "cluster": "web-net",
+  "confidence": "high",
+  "reason": "name contains 'scrap'",
+  "last_commit_date": "2019-06-09 22:38:02 +0200"
+ },
+ "py_try_bimpy": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "lisp-libs",
+  "confidence": "medium",
+  "reason": "language fallback (lisp)",
+  "last_commit_date": "2019-04-05 22:41:08 +0200"
+ },
+ "py_try_opencl": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains 'opencl'",
+  "last_commit_date": "2019-04-03 08:02:37 +0200"
+ },
+ "python-opengl": {
+  "status": "ok",
+  "language": "python",
+  "language_score": 321,
+  "language_reason": "ext .pyx107",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains 'opengl'",
+  "last_commit_date": "2019-10-27 15:12:13 +0100"
+ },
+ "quartz-model": {
+  "status": "ok",
+  "language": "latex",
+  "language_score": 2,
+  "language_reason": "ext .texx1",
+  "cluster": "science-math",
+  "confidence": "high",
+  "reason": "name contains 'quartz'",
+  "last_commit_date": "2009-10-02 09:45:25 +0100"
+ },
+ "quicktime_video_hack": {
+  "status": "ok",
+  "language": "go",
+  "language_score": 223,
+  "language_reason": "marker go.mod",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "manual override (QuickTime video container hack)",
+  "last_commit_date": "2024-06-24 21:48:31 +0200"
+ },
+ "raspberry-pi-egl-test": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 6,
+  "language_reason": "ext .lispx2",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains 'egl'",
+  "last_commit_date": "2013-12-09 15:29:09 +0100"
+ },
+ "rayt": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 40,
+  "language_reason": "marker *.asd",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains 'rayt'",
+  "last_commit_date": "2011-02-14 21:39:47 +0000"
+ },
+ "relat": {
+  "status": "ok",
+  "language": "latex",
+  "language_score": 2,
+  "language_reason": "ext .texx1",
+  "cluster": "docs-meta",
+  "confidence": "medium",
+  "reason": "readme/log contains 'vorlesung'",
+  "last_commit_date": "2012-10-16 11:07:17 +0200"
+ },
+ "rescan-confocal-raytrace": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 6,
+  "language_reason": "ext .lispx2",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'confocal'",
+  "last_commit_date": "2013-12-13 23:08:46 +0100"
+ },
+ "retreat-doc": {
+  "status": "ok",
+  "language": "latex",
+  "language_score": 2,
+  "language_reason": "ext .texx1",
+  "cluster": "docs-meta",
+  "confidence": "high",
+  "reason": "name contains 'retreat'",
+  "last_commit_date": "2010-09-01 09:03:09 +0100"
+ },
+ "rgb_led_matrix": {
+  "status": "ok",
+  "language": "arduino",
+  "language_score": 13,
+  "language_reason": "marker *.ino",
+  "cluster": "embedded-fpga",
+  "confidence": "high",
+  "reason": "name contains 'led matrix'",
+  "last_commit_date": "2013-11-02 11:40:41 +0100"
+ },
+ "right-hand-mirror-keyboard": {
+  "status": "ok",
+  "language": "unknown",
+  "language_score": 0,
+  "language_reason": "no signal",
+  "cluster": "docs-meta",
+  "confidence": "high",
+  "reason": "manual override (XKB keyboard layout config)",
+  "last_commit_date": "2015-03-01 09:18:17 +0100"
+ },
+ "rocketrecap2": {
+  "status": "ok",
+  "language": "python",
+  "language_score": 61,
+  "language_reason": "marker pyproject.toml",
+  "cluster": "ml-ai",
+  "confidence": "medium",
+  "reason": "readme/log contains 'summariz'",
+  "last_commit_date": "2025-09-14 20:36:20 +0000"
+ },
+ "rp2350-cobs-proto": {
+  "status": "ok",
+  "language": "rust",
+  "language_score": 26,
+  "language_reason": "marker Cargo.toml",
+  "cluster": "embedded-fpga",
+  "confidence": "high",
+  "reason": "name contains 'rp2350'",
+  "last_commit_date": "2026-05-31 12:20:51 +0000"
+ },
+ "rs-chi2-viz": {
+  "status": "ok",
+  "language": "rust",
+  "language_score": 38,
+  "language_reason": "marker Cargo.toml",
+  "cluster": "science-math",
+  "confidence": "high",
+  "reason": "name contains 'chi2'",
+  "last_commit_date": "2026-05-11 17:05:27 +0000"
+ },
+ "rs-example-self-update": {
+  "status": "ok",
+  "language": "rust",
+  "language_score": 13,
+  "language_reason": "marker Cargo.toml",
+  "cluster": "rust-apps",
+  "confidence": "high",
+  "reason": "manual override (Rust self-update example)",
+  "last_commit_date": "2026-02-15 14:57:00 +0000"
+ },
+ "rs-summarizer": {
+  "status": "ok",
+  "language": "rust",
+  "language_score": 152,
+  "language_reason": "marker Cargo.toml",
+  "cluster": "ml-ai",
+  "confidence": "high",
+  "reason": "name contains 'summariz'",
+  "last_commit_date": "2026-09-20 12:57:26 +0000"
+ },
+ "rs_disk_treemap": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 60,
+  "language_reason": "ext .lispx20",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains 'treemap'",
+  "last_commit_date": "2026-09-19 08:57:45 +0000"
+ },
+ "rust-datalib-benchmark": {
+  "status": "ok",
+  "language": "rust",
+  "language_score": 16,
+  "language_reason": "marker Cargo.toml",
+  "cluster": "rust-apps",
+  "confidence": "high",
+  "reason": "manual override (Rust datalib benchmark (summary stats, not summarizer))",
+  "last_commit_date": "2026-05-02 13:24:56 +0000"
+ },
+ "ryzen_managment_linux": {
+  "status": "ok",
+  "language": "cpp",
+  "language_score": 140,
+  "language_reason": "marker CMakeLists.txt",
+  "cluster": "science-math",
+  "confidence": "high",
+  "reason": "manual override (Ryzen SMU data acquisition toolkit)",
+  "last_commit_date": "2026-02-18 00:54:01 +0000"
+ },
+ "sapkowski_in_english": {
+  "status": "ok",
+  "language": "docs",
+  "language_score": 4,
+  "language_reason": "ext .mdx4",
+  "cluster": "docs-meta",
+  "confidence": "high",
+  "reason": "name contains 'sapkowski'",
+  "last_commit_date": "2025-06-09 11:19:02 +0200"
+ },
+ "satellite-plot": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 9,
+  "language_reason": "ext .lispx3",
+  "cluster": "sdr-radio",
+  "confidence": "high",
+  "reason": "name contains 'satellite'",
+  "last_commit_date": "2019-06-17 09:05:32 +0200"
+ },
+ "satellite_hackathon": {
+  "status": "ok",
+  "language": "python",
+  "language_score": 6,
+  "language_reason": "ext .pyx2",
+  "cluster": "sdr-radio",
+  "confidence": "high",
+  "reason": "name contains 'satellite'",
+  "last_commit_date": "2018-10-02 19:57:54 +0200"
+ },
+ "sb-andor2-win": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 31,
+  "language_reason": "marker *.asd",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'andor'",
+  "last_commit_date": "2012-09-12 13:51:52 +0200"
+ },
+ "sb-fastsim": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "imaging-optics",
+  "confidence": "medium",
+  "reason": "readme/log contains 'grating'",
+  "last_commit_date": "2014-01-05 12:50:50 +0100"
+ },
+ "sb-hdf": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "science-math",
+  "confidence": "high",
+  "reason": "name contains 'hdf'",
+  "last_commit_date": "2010-11-14 20:41:10 +0000"
+ },
+ "sb-httpd-nonblock": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 22,
+  "language_reason": "marker *.asd",
+  "cluster": "web-net",
+  "confidence": "high",
+  "reason": "manual override (single-threaded web server for Raspberry Pi)",
+  "last_commit_date": "2016-07-24 13:50:08 +0200"
+ },
+ "sb-libusb0": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 28,
+  "language_reason": "marker *.asd",
+  "cluster": "lisp-libs",
+  "confidence": "medium",
+  "reason": "language fallback (lisp)",
+  "last_commit_date": "2014-06-04 14:41:36 +0200"
+ },
+ "sb-linux-serial": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 16,
+  "language_reason": "marker *.asd",
+  "cluster": "embedded-fpga",
+  "confidence": "medium",
+  "reason": "readme/log contains 'arduino'",
+  "last_commit_date": "2016-06-03 11:30:48 +0200"
+ },
+ "sb-look-ma-no-libusb": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 31,
+  "language_reason": "marker *.asd",
+  "cluster": "imaging-optics",
+  "confidence": "medium",
+  "reason": "readme/log contains 'hough'",
+  "last_commit_date": "2026-02-18 07:25:45 +0000"
+ },
+ "sb-nlopt": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 6,
+  "language_reason": "ext .lispx2",
+  "cluster": "science-math",
+  "confidence": "high",
+  "reason": "name contains 'nlopt'",
+  "last_commit_date": "2014-01-03 12:07:02 +0100"
+ },
+ "sb-siftfast": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "manual override (SIFT feature extraction)",
+  "last_commit_date": "2013-12-28 12:24:10 +0100"
+ },
+ "sb-x264": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 28,
+  "language_reason": "marker *.asd",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'x264'",
+  "last_commit_date": "2011-03-13 12:13:49 +0000"
+ },
+ "sen": {
+  "status": "ok",
+  "language": "c",
+  "language_score": 4,
+  "language_reason": "marker Makefile",
+  "cluster": "imaging-optics",
+  "confidence": "medium",
+  "reason": "readme/log contains 'dic'",
+  "last_commit_date": "2009-10-02 11:16:09 +0100"
+ },
+ "sicp-logic": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 6,
+  "language_reason": "ext .lispx2",
+  "cluster": "lisp-libs",
+  "confidence": "medium",
+  "reason": "language fallback (lisp)",
+  "last_commit_date": "2011-03-10 22:27:28 +0000"
+ },
+ "slide-tag": {
+  "status": "ok",
+  "language": "rust",
+  "language_score": 157,
+  "language_reason": "marker Cargo.toml",
+  "cluster": "docs-meta",
+  "confidence": "medium",
+  "reason": "readme/log contains 'thesis'",
+  "last_commit_date": "2026-05-14 13:25:23 +0000"
+ },
+ "spat-bin": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "imaging-optics",
+  "confidence": "medium",
+  "reason": "readme/log contains 'point spread'",
+  "last_commit_date": "2013-01-25 03:10:50 -0800"
+ },
+ "spiral-sample": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "science-math",
+  "confidence": "high",
+  "reason": "manual override (spiral sampling pattern design)",
+  "last_commit_date": "2010-09-16 16:55:29 +0100"
+ },
+ "st": {
+  "status": "ok",
+  "language": "c",
+  "language_score": 10,
+  "language_reason": "marker Makefile",
+  "cluster": "cpp-projects",
+  "confidence": "medium",
+  "reason": "language fallback (c)",
+  "last_commit_date": "2023-09-02 08:56:20 +0200"
+ },
+ "stars": {
+  "status": "ok",
+  "language": "rust",
+  "language_score": 62,
+  "language_reason": "marker Cargo.toml",
+  "cluster": "science-math",
+  "confidence": "high",
+  "reason": "manual override (iPhone astrophotography suite)",
+  "last_commit_date": "2026-08-30 07:24:57 +0000"
+ },
+ "stm32plus": {
+  "status": "ok",
+  "language": "c",
+  "language_score": 2729,
+  "language_reason": "marker Makefile",
+  "cluster": "embedded-fpga",
+  "confidence": "high",
+  "reason": "name contains 'stm32'",
+  "last_commit_date": "2021-03-11 18:44:17 +0000"
+ },
+ "stock-screen": {
+  "status": "ok",
+  "language": "docs",
+  "language_score": 9,
+  "language_reason": "ext .mdx5",
+  "cluster": "finance",
+  "confidence": "high",
+  "reason": "name contains 'stock'",
+  "last_commit_date": "2026-06-06 14:09:24 +0000"
+ },
+ "testglfw": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "manual override (GLFW FFI test)",
+  "last_commit_date": "2012-03-07 13:55:54 +0100"
+ },
+ "thesis-review": {
+  "status": "ok",
+  "language": "latex",
+  "language_score": 18,
+  "language_reason": "ext .texx9",
+  "cluster": "docs-meta",
+  "confidence": "high",
+  "reason": "name contains 'thesis'",
+  "last_commit_date": "2013-09-02 17:14:45 +0200"
+ },
+ "thesis": {
+  "status": "empty",
+  "cluster": null,
+  "language": null
+ },
+ "transcript-explorer-rs": {
+  "status": "ok",
+  "language": "rust",
+  "language_score": 74,
+  "language_reason": "marker Cargo.toml",
+  "cluster": "rust-apps",
+  "confidence": "high",
+  "reason": "manual override (Rust transcript explorer app)",
+  "last_commit_date": "2026-02-15 19:47:44 +0000"
+ },
+ "transpiled_treemap": {
+  "status": "ok",
+  "language": "cpp",
+  "language_score": 44,
+  "language_reason": "marker CMakeLists.txt",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains 'treemap'",
+  "last_commit_date": "2026-09-20 07:39:36 +0000"
+ },
+ "try-cl-rule": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 6,
+  "language_reason": "ext .lispx2",
+  "cluster": "lisp-libs",
+  "confidence": "medium",
+  "reason": "language fallback (lisp)",
+  "last_commit_date": "2018-07-06 23:08:09 +0200"
+ },
+ "try_clojurescript": {
+  "status": "ok",
+  "language": "clojure",
+  "language_score": 68,
+  "language_reason": "ext .ednx17",
+  "cluster": "lisp-libs",
+  "confidence": "medium",
+  "reason": "language fallback (clojure)",
+  "last_commit_date": "2021-12-09 00:01:49 +0100"
+ },
+ "try_ferret": {
+  "status": "ok",
+  "language": "clojure",
+  "language_score": 3,
+  "language_reason": "ext .cljx1",
+  "cluster": "lisp-libs",
+  "confidence": "medium",
+  "reason": "language fallback (clojure)",
+  "last_commit_date": "2022-08-31 18:24:19 +0200"
+ },
+ "try_gh_actions": {
+  "status": "ok",
+  "language": "docs",
+  "language_score": 1,
+  "language_reason": "ext .orgx1",
+  "cluster": "docs-meta",
+  "confidence": "high",
+  "reason": "manual override (GitHub Actions CI experiment)",
+  "last_commit_date": "2022-03-12 09:54:55 +0100"
+ },
+ "try_py2_peak_trellis": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "lisp-libs",
+  "confidence": "medium",
+  "reason": "language fallback (lisp)",
+  "last_commit_date": "2019-02-14 21:47:14 +0100"
+ },
+ "try_py_neural": {
+  "status": "ok",
+  "language": "python",
+  "language_score": 3,
+  "language_reason": "ext .pyx1",
+  "cluster": "ml-ai",
+  "confidence": "high",
+  "reason": "name contains 'neural'",
+  "last_commit_date": "2018-06-12 07:14:21 +0200"
+ },
+ "try_py_selenium": {
+  "status": "ok",
+  "language": "python",
+  "language_score": 3,
+  "language_reason": "ext .pyx1",
+  "cluster": "web-net",
+  "confidence": "high",
+  "reason": "name contains 'selenium'",
+  "last_commit_date": "2018-06-04 09:09:19 +0200"
+ },
+ "uVkCompute": {
+  "status": "ok",
+  "language": "cpp",
+  "language_score": 82,
+  "language_reason": "marker CMakeLists.txt",
+  "cluster": "gpu-graphics",
+  "confidence": "medium",
+  "reason": "readme/log contains 'vulkan'",
+  "last_commit_date": "2024-06-28 00:08:29 +0200"
+ },
+ "ulisp-i2c": {
+  "status": "ok",
+  "language": "arduino",
+  "language_score": 13,
+  "language_reason": "marker *.ino",
+  "cluster": "embedded-fpga",
+  "confidence": "high",
+  "reason": "name contains 'i2c'",
+  "last_commit_date": "2016-06-03 01:52:53 +0200"
+ },
+ "vhdl-simulator-test": {
+  "status": "ok",
+  "language": "vhdl",
+  "language_score": 42,
+  "language_reason": "ext .vhdx10",
+  "cluster": "embedded-fpga",
+  "confidence": "high",
+  "reason": "name contains 'vhdl'",
+  "last_commit_date": "2015-08-01 15:47:47 +0200"
+ },
+ "virology_2025": {
+  "status": "ok",
+  "language": "docs",
+  "language_score": 3,
+  "language_reason": "ext .mdx2",
+  "cluster": "docs-meta",
+  "confidence": "high",
+  "reason": "manual override (virology reading notes)",
+  "last_commit_date": "2026-01-09 01:23:57 +0100"
+ },
+ "wchisp": {
+  "status": "ok",
+  "language": "rust",
+  "language_score": 47,
+  "language_reason": "marker Cargo.toml",
+  "cluster": "embedded-fpga",
+  "confidence": "medium",
+  "reason": "readme/log contains 'ch32'",
+  "last_commit_date": "2024-03-01 14:40:34 +0800"
+ },
+ "white-rabbit": {
+  "status": "ok",
+  "language": "latex",
+  "language_score": 373,
+  "language_reason": "ext .texx182",
+  "cluster": "embedded-fpga",
+  "confidence": "high",
+  "reason": "name contains 'white rabbit'",
+  "last_commit_date": "2025-04-09 14:44:28 +0200"
+ },
+ "wld": {
+  "status": "ok",
+  "language": "c",
+  "language_score": 55,
+  "language_reason": "marker Makefile",
+  "cluster": "cpp-projects",
+  "confidence": "medium",
+  "reason": "language fallback (c)",
+  "last_commit_date": "2014-06-25 12:07:18 +0200"
+ },
+ "wm": {
+  "status": "ok",
+  "language": "c",
+  "language_score": 45,
+  "language_reason": "marker Makefile",
+  "cluster": "cpp-projects",
+  "confidence": "high",
+  "reason": "manual override (X window manager in C)",
+  "last_commit_date": "2015-01-25 09:27:16 +0100"
+ },
+ "woropt-cyb-0628": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 202,
+  "language_reason": "marker *.asd",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "manual override (ICS/LSM microscopy 3D data import)",
+  "last_commit_date": "2012-01-17 20:09:59 +0100"
+ },
+ "x11-shm-test": {
+  "status": "ok",
+  "language": "c",
+  "language_score": 2,
+  "language_reason": "ext .cx1",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains 'x11'",
+  "last_commit_date": "2010-11-21 12:43:56 +0000"
+ },
+ "x11_blazeface": {
+  "status": "ok",
+  "language": "cpp",
+  "language_score": 4,
+  "language_reason": "ext .ccx2",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'blazeface'",
+  "last_commit_date": "2025-09-25 05:15:42 +0000"
+ },
+ "x11_crosshair": {
+  "status": "ok",
+  "language": "cpp",
+  "language_score": 12,
+  "language_reason": "marker CMakeLists.txt",
+  "cluster": "gpu-graphics",
+  "confidence": "high",
+  "reason": "name contains 'x11'",
+  "last_commit_date": "2026-02-18 00:15:30 +0000"
+ },
+ "youscope": {
+  "status": "ok",
+  "language": "lisp",
+  "language_score": 3,
+  "language_reason": "ext .lispx1",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'youscope'",
+  "last_commit_date": "2011-07-31 16:52:56 +0100"
+ },
+ "zemax": {
+  "status": "ok",
+  "language": "docs",
+  "language_score": 1,
+  "language_reason": "ext .orgx1",
+  "cluster": "imaging-optics",
+  "confidence": "high",
+  "reason": "name contains 'zemax'",
+  "last_commit_date": "2012-10-16 08:39:45 +0200"
+ }
+}

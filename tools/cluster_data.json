@@ -1,0 +1,1128 @@
+{
+ "_comment": "Tables for 02_cluster_data.py. Keyword order matters: first matching cluster wins. Name-only keys never match README/log text (too noisy there).",
+ "body_word_only": [
+  "andor",
+  "quest"
+ ],
+ "cluster_keywords": {
+  "generators": [
+   "generator"
+  ],
+  "sdr-radio": [
+   "pluto",
+   "gnuradio",
+   "linrad",
+   "radar",
+   "synthetic aperture",
+   "rtl-sdr",
+   "waterfall",
+   "satellite",
+   "shortwave",
+   "fm-radio",
+   "fm radio",
+   "digital radio",
+   "mondiale",
+   "radio telescope",
+   "sdr",
+   "rds",
+   "sar"
+  ],
+  "imaging-optics": [
+   "microscop",
+   "mikroskop",
+   "youscope",
+   "micromanager",
+   "micro-manager",
+   "holograph",
+   "fluoresc",
+   "confocal",
+   "deconvol",
+   "super-resolution",
+   "superresolution",
+   "localization",
+   "gaussfit",
+   "gaussian fit",
+   "point spread",
+   "atomic force",
+   "spatial light modulator",
+   "light sheet",
+   "light-sheet",
+   "waveguide",
+   "endoscop",
+   "dicom",
+   "cytometry",
+   "flow cytometry",
+   "retina",
+   "ophthalm",
+   "phase retrieval",
+   "ptychograph",
+   "lensless",
+   "computational imaging",
+   "bioimage",
+   "cellpose",
+   "stardist",
+   "napari",
+   "imagej",
+   "cell segment",
+   "camera calib",
+   "video4linux",
+   "opencv",
+   "eyetrack",
+   "blazeface",
+   "optical",
+   "optics",
+   "photon",
+   "hologram",
+   "zemax",
+   "calib",
+   "pifoc",
+   "optical coherence",
+   "image processing",
+   "hough",
+   "libav",
+   "surveillance",
+   "grating",
+   "simpsf",
+   "andor",
+   "basler",
+   "fiber",
+   "x264",
+   "lens",
+   "v4l",
+   "psf",
+   "dmd",
+   "slm",
+   "lcos",
+   "afm",
+   "bead",
+   "vpx",
+   "aom",
+   "av1",
+   "pnm",
+   "dic",
+   "cimg"
+  ],
+  "embedded-fpga": [
+   "arduino",
+   "stm32",
+   "esp32",
+   "rp2350",
+   "rp2040",
+   "raspberry pi pico",
+   "attiny",
+   "atmega",
+   "microcontroller",
+   "verilog",
+   "vhdl",
+   "yosys",
+   "nextpnr",
+   "vivado",
+   "quartus",
+   "lattice",
+   "ice40",
+   "ecp5",
+   "xilinx",
+   "k325t",
+   "etherbone",
+   "white rabbit",
+   "white-rabbit",
+   "wishbone",
+   "riscv",
+   "risc-v",
+   "bare-metal",
+   "bare metal",
+   "firmware",
+   "bootloader",
+   "probe-rs",
+   "embedded",
+   "nanopb",
+   "protobuf",
+   "modbus",
+   "ws2812",
+   "neopixel",
+   "fastled",
+   "led strip",
+   "led matrix",
+   "stepper",
+   "cypress",
+   "kicad",
+   "jlcpcb",
+   "pulser",
+   "oscilloscope",
+   "logic analyz",
+   "function generator",
+   "trigger",
+   "fpga",
+   "pcie",
+   "jtag",
+   "no-std",
+   "cobs",
+   "psoc",
+   "ch32",
+   "pcb",
+   "i2c",
+   "uart",
+   "avr",
+   "spi",
+   "adc",
+   "dac"
+  ],
+  "gpu-graphics": [
+   "vulkan",
+   "opengl",
+   "opengles",
+   "directx",
+   "webgpu",
+   "raymarch",
+   "raytrace",
+   "ray trace",
+   "pathtrace",
+   "path trace",
+   "optix",
+   "halide",
+   "mandelbrot",
+   "fractal",
+   "dear imgui",
+   "compute shader",
+   "fragment shader",
+   "vertex shader",
+   "direct rendering",
+   "framebuffer",
+   "game engine",
+   "openxr",
+   "wxwidgets",
+   "nuklear",
+   "raylib",
+   "blend2d",
+   "nanovg",
+   "treemap",
+   "plotting",
+   "gnuplot",
+   "visdom",
+   "glumpy",
+   "vispy",
+   "pyglet",
+   "pygame",
+   "bevy",
+   "glium",
+   "skia",
+   "cairo",
+   "assimp",
+   "gltf",
+   "drm-graphics",
+   "drmgfx",
+   "widget",
+   "cuda",
+   "opencl",
+   "glfw",
+   "ispc",
+   "magnum",
+   "shader",
+   "glsl",
+   "wayland",
+   "quest",
+   "gtk",
+   "wgpu",
+   "rayt",
+   "egl",
+   "sdl",
+   "imgui",
+   "x11",
+   "xcb",
+   "game",
+   "svg",
+   "kms",
+   "drm",
+   "iup",
+   "sfml",
+   "3d",
+   "qt"
+  ],
+  "ml-ai": [
+   "neural",
+   "deep learning",
+   "deep-learning",
+   "machine learning",
+   "machine-learning",
+   "pytorch",
+   "tensorflow",
+   "huggingface",
+   "transformer",
+   "large language",
+   "diffusion",
+   "stable diffusion",
+   "segment anything",
+   "detectron",
+   "ultralytics",
+   "roboflow",
+   "fiftyone",
+   "imagenet",
+   "vector db",
+   "vector-db",
+   "vectordb",
+   "chromadb",
+   "qdrant",
+   "faiss",
+   "retrieval augment",
+   "langchain",
+   "llama-index",
+   "llamaindex",
+   "ollama",
+   "llama.cpp",
+   "whisper",
+   "text-to-speech",
+   "speech-to-text",
+   "summariz",
+   "anthropic",
+   "chatgpt",
+   "openai",
+   "mistral",
+   "mixtral",
+   "deepseek",
+   "tensorrt",
+   "openvino",
+   "coreml",
+   "tflite",
+   "litert",
+   "finetun",
+   "fine-tun",
+   "quantiz",
+   "optuna",
+   "wandb",
+   "mlflow",
+   "tensorboard",
+   "gradio",
+   "streamlit",
+   "chainlit",
+   "t-sne",
+   "random forest",
+   "xgboost",
+   "lightgbm",
+   "catboost",
+   "sklearn",
+   "scikit",
+   "bayesian",
+   "pymc",
+   "pyro",
+   "numpyro",
+   "jaxopt",
+   "cvxpy",
+   "reinforcement",
+   "gymnasium",
+   "mujoco",
+   "pybullet",
+   "stable-baselines",
+   "normalizing flow",
+   "contrastive",
+   "simclr",
+   "vision transformer",
+   "convnext",
+   "efficientnet",
+   "retinanet",
+   "faster r-cnn",
+   "mask r-cnn",
+   "tesseract",
+   "easyocr",
+   "paddleocr",
+   "donut",
+   "layoutlm",
+   "named entity",
+   "sentiment",
+   "topic model",
+   "bertopic",
+   "jailbreak",
+   "prompt inject",
+   "guardrail",
+   "hellaswag",
+   "human-eval",
+   "kaggle",
+   "mnist",
+   "cifar",
+   "coco",
+   "lvis",
+   "yolo",
+   "onnx",
+   "lora",
+   "peft",
+   "umap",
+   "tsne",
+   "dbscan",
+   "kmeans",
+   "gemini",
+   "Muse",
+   "bert",
+   "sam",
+   "rag",
+   "gan",
+   "vae",
+   "ocr",
+   "mcp",
+   "ner",
+   "gpt"
+  ],
+  "finance": [
+   "finance",
+   "financial",
+   "trading",
+   "portfolio",
+   "algorithmic trading",
+   "market data",
+   "candlestick",
+   "yfinance",
+   "interactive brokers",
+   "black-scholes",
+   "black scholes",
+   "sharpe",
+   "sortino",
+   "kelly criterion",
+   "stock",
+   "crypto",
+   "bitcoin",
+   "ohlc",
+   "alpaca",
+   "quant"
+  ],
+  "web-net": [
+   "phoenix",
+   "liveview",
+   "live view",
+   "cowboy",
+   "bandit",
+   "django",
+   "flask",
+   "fastapi",
+   "starlette",
+   "uvicorn",
+   "gunicorn",
+   "celery",
+   "fastify",
+   "nestjs",
+   "nextjs",
+   "next.js",
+   "svelte",
+   "sveltekit",
+   "remix",
+   "solidjs",
+   "htmx",
+   "tailwind",
+   "three.js",
+   "threejs",
+   "babylon",
+   "mapbox",
+   "leaflet",
+   "wireguard",
+   "openvpn",
+   "tailscale",
+   "zerotier",
+   "activitypub",
+   "mastodon",
+   "gstreamer",
+   "mediasoup",
+   "livekit",
+   "jitsi",
+   "freeswitch",
+   "kamailio",
+   "selenium",
+   "playwright",
+   "puppeteer",
+   "scrapy",
+   "crawl",
+   "kafka",
+   "rabbitmq",
+   "redis",
+   "memcached",
+   "postgres",
+   "clickhouse",
+   "duckdb",
+   "surrealdb",
+   "rest api",
+   "rest-api",
+   "graphql",
+   "websocket",
+   "webrtc",
+   "wireshark",
+   "mosh",
+   "rtsp",
+   "rtmp",
+   "voip",
+   "helium",
+   "autoweb",
+   "aframe",
+   "scrap",
+   "nginx",
+   "ecto",
+   "sqlite",
+   "mongodb",
+   "plug",
+   "wasm",
+   "mqtt",
+   "grpc",
+   "http",
+   "ssh",
+   "tcp",
+   "udp",
+   "quic",
+   "tls",
+   "dns",
+   "irc",
+   "sip",
+   "phx",
+   "tor"
+  ],
+  "mobile": [
+   "jetpack",
+   "react native",
+   "nativescript",
+   "xamarin",
+   "swiftui",
+   "cocoapods",
+   "testflight",
+   "fastlane",
+   "firebase",
+   "supabase",
+   "appwrite",
+   "geofenc",
+   "sqflite",
+   "coredata",
+   "core data",
+   "bluetooth",
+   "camera2",
+   "camerax",
+   "avfoundation",
+   "renderscript",
+   "flutter",
+   "android",
+   "kotlin",
+   "maui",
+   "uikit",
+   "sensor",
+   "nfc"
+  ],
+  "science-math": [
+   "finite element",
+   "finite-element",
+   "fenics",
+   "openfoam",
+   "phase space",
+   "suitesparse",
+   "umfpack",
+   "superlu",
+   "pardiso",
+   "cholmod",
+   "k-d tree",
+   "ball tree",
+   "cover tree",
+   "cholesky",
+   "eigenvalue",
+   "singular value",
+   "networkx",
+   "dijkstra",
+   "topological",
+   "max flow",
+   "min cut",
+   "bipartite",
+   "vertex cover",
+   "steiner",
+   "knapsack",
+   "bin packing",
+   "scheduling",
+   "satisfiability",
+   "minisat",
+   "cryptominisat",
+   "clingo",
+   "prolog",
+   "minizinc",
+   "or-tools",
+   "cplex",
+   "mosek",
+   "sympy",
+   "octave",
+   "scilab",
+   "mathematica",
+   "wolfram",
+   "jupyter",
+   "quarto",
+   "lyapunov",
+   "bifurcation",
+   "lorenz",
+   "ising",
+   "gillespie",
+   "scotch",
+   "zoltan",
+   "hnsw",
+   "sparql",
+   "knowledge graph",
+   "sat solver",
+   "ceres",
+   "cufft",
+   "clfft",
+   "sophus",
+   "quaternion",
+   "autodiff",
+   "autograd",
+   "kitti",
+   "mumps",
+   "metis",
+   "blas",
+   "lapack",
+   "nlopt",
+   "ipopt",
+   "fftw",
+   "fourier",
+   "wavelet",
+   "kalman",
+   "mcmc",
+   "metropolis",
+   "newton",
+   "lbfgs",
+   "nelder",
+   "runge",
+   "multigrid",
+   "gmres",
+   "kdtree",
+   "octree",
+   "quadtree",
+   "matlab",
+   "quartz",
+   "uprof",
+   "papi",
+   "chi2",
+   "nfft",
+   "dijk",
+   "hdf",
+   "svd",
+   "nmf",
+   "fft",
+   "ode",
+   "pde",
+   "sde",
+   "fem",
+   "z3",
+   "simulated annealing",
+   "genetic algorithm",
+   "particle swarm",
+   "differential evolution",
+   "symplectic",
+   "conjugate gradient",
+   "sparse",
+   "bellman",
+   "floyd",
+   "astar",
+   "a-star",
+   "tsp",
+   "glpk",
+   "slam"
+  ],
+  "docs-meta": [
+   "dissertation",
+   "master thesis",
+   "bachelor",
+   "dokdok",
+   "retreat",
+   "seminar",
+   "lecture",
+   "tutorial",
+   "workshop",
+   "chinesisch",
+   "sapkowski",
+   "witcher",
+   "hypermedia",
+   "dotemacs",
+   "dotfiles",
+   "suckless",
+   "homepage",
+   "portfolio",
+   "klausur",
+   "vorlesung",
+   "praktikum",
+   "hausarbeit",
+   "referat",
+   "facharbeit",
+   "abschlussarbeit",
+   "traffic",
+   "thesis",
+   "phd",
+   "diploma",
+   "slides",
+   "poster",
+   "vim",
+   "emacs"
+  ],
+  "lisp-libs": [],
+  "rust-apps": [],
+  "python-apps": [],
+  "cpp-projects": []
+ },
+ "cluster_titles": {
+  "cpp-projects": "C/C++ Projects",
+  "docs-meta": "Docs, Theses & Meta",
+  "embedded-fpga": "Embedded, MCU & FPGA",
+  "finance": "Finance & Trading",
+  "generators": "S-Expression Code Generators",
+  "gpu-graphics": "GPU, Graphics & Visualization",
+  "imaging-optics": "Imaging, Microscopy & Optics",
+  "lisp-libs": "Lisp Libraries & Tools",
+  "ml-ai": "Machine Learning & AI",
+  "mobile": "Mobile & Apps",
+  "python-apps": "Python Applications",
+  "rust-apps": "Rust Applications",
+  "science-math": "Science, Math & Simulation",
+  "sdr-radio": "SDR, Radio & Radar",
+  "web-net": "Web & Networking"
+ },
+ "ext_lang": {
+  ".adb": [
+   "ada",
+   3
+  ],
+  ".ads": [
+   "ada",
+   3
+  ],
+  ".asd": [
+   "lisp",
+   3
+  ],
+  ".bib": [
+   "latex",
+   1
+  ],
+  ".c": [
+   "c",
+   2
+  ],
+  ".cc": [
+   "cpp",
+   2
+  ],
+  ".cjs": [
+   "js",
+   2
+  ],
+  ".cl": [
+   "opencl",
+   3
+  ],
+  ".clj": [
+   "clojure",
+   3
+  ],
+  ".cljc": [
+   "clojure",
+   3
+  ],
+  ".cljs": [
+   "clojure",
+   3
+  ],
+  ".comp": [
+   "shader",
+   3
+  ],
+  ".cpp": [
+   "cpp",
+   2
+  ],
+  ".cs": [
+   "csharp",
+   3
+  ],
+  ".css": [
+   "web",
+   1
+  ],
+  ".cxx": [
+   "cpp",
+   2
+  ],
+  ".edn": [
+   "clojure",
+   1
+  ],
+  ".el": [
+   "elisp",
+   3
+  ],
+  ".erl": [
+   "erlang",
+   3
+  ],
+  ".ex": [
+   "elixir",
+   3
+  ],
+  ".exs": [
+   "elixir",
+   3
+  ],
+  ".f": [
+   "fortran",
+   2
+  ],
+  ".f90": [
+   "fortran",
+   2
+  ],
+  ".frag": [
+   "shader",
+   3
+  ],
+  ".glsl": [
+   "shader",
+   3
+  ],
+  ".go": [
+   "go",
+   3
+  ],
+  ".h": [
+   "c",
+   1
+  ],
+  ".hh": [
+   "cpp",
+   2
+  ],
+  ".hpp": [
+   "cpp",
+   2
+  ],
+  ".hs": [
+   "haskell",
+   3
+  ],
+  ".html": [
+   "web",
+   1
+  ],
+  ".ino": [
+   "arduino",
+   3
+  ],
+  ".ipynb": [
+   "python",
+   3
+  ],
+  ".java": [
+   "java",
+   3
+  ],
+  ".jl": [
+   "julia",
+   3
+  ],
+  ".js": [
+   "js",
+   2
+  ],
+  ".jsx": [
+   "js",
+   2
+  ],
+  ".kt": [
+   "kotlin",
+   3
+  ],
+  ".kts": [
+   "kotlin",
+   3
+  ],
+  ".lisp": [
+   "lisp",
+   3
+  ],
+  ".lsp": [
+   "lisp",
+   3
+  ],
+  ".lua": [
+   "lua",
+   3
+  ],
+  ".m": [
+   "matlab",
+   2
+  ],
+  ".md": [
+   "docs",
+   1
+  ],
+  ".mjs": [
+   "js",
+   2
+  ],
+  ".ml": [
+   "ocaml",
+   3
+  ],
+  ".nb": [
+   "wolfram",
+   2
+  ],
+  ".org": [
+   "docs",
+   1
+  ],
+  ".pas": [
+   "pascal",
+   2
+  ],
+  ".pde": [
+   "arduino",
+   3
+  ],
+  ".pdf": [
+   "docs",
+   1
+  ],
+  ".php": [
+   "php",
+   2
+  ],
+  ".pl": [
+   "perl",
+   2
+  ],
+  ".pm": [
+   "perl",
+   2
+  ],
+  ".pp": [
+   "pascal",
+   2
+  ],
+  ".py": [
+   "python",
+   3
+  ],
+  ".pyx": [
+   "python",
+   3
+  ],
+  ".r": [
+   "r",
+   2
+  ],
+  ".rb": [
+   "ruby",
+   2
+  ],
+  ".rs": [
+   "rust",
+   3
+  ],
+  ".rst": [
+   "docs",
+   1
+  ],
+  ".scm": [
+   "scheme",
+   3
+  ],
+  ".sexp": [
+   "lisp",
+   3
+  ],
+  ".sh": [
+   "shell",
+   1
+  ],
+  ".ss": [
+   "scheme",
+   3
+  ],
+  ".sv": [
+   "verilog",
+   3
+  ],
+  ".swift": [
+   "swift",
+   3
+  ],
+  ".tcl": [
+   "tcl",
+   3
+  ],
+  ".tex": [
+   "latex",
+   2
+  ],
+  ".ts": [
+   "ts",
+   3
+  ],
+  ".tsx": [
+   "ts",
+   3
+  ],
+  ".txt": [
+   "docs",
+   1
+  ],
+  ".v": [
+   "verilog",
+   2
+  ],
+  ".vba": [
+   "vba",
+   2
+  ],
+  ".vert": [
+   "shader",
+   3
+  ],
+  ".vhd": [
+   "vhdl",
+   3
+  ],
+  ".vhdl": [
+   "vhdl",
+   3
+  ],
+  ".wl": [
+   "wolfram",
+   2
+  ],
+  ".wls": [
+   "wolfram",
+   2
+  ]
+ },
+ "lang_fallback": {
+  "ada": "embedded-fpga",
+  "arduino": "embedded-fpga",
+  "c": "cpp-projects",
+  "clojure": "lisp-libs",
+  "cpp": "cpp-projects",
+  "csharp": "cpp-projects",
+  "cuda": "gpu-graphics",
+  "docs": "docs-meta",
+  "elisp": "lisp-libs",
+  "elixir": "web-net",
+  "erlang": "web-net",
+  "fortran": "science-math",
+  "go": "web-net",
+  "haskell": "lisp-libs",
+  "java": "mobile",
+  "js": "web-net",
+  "julia": "science-math",
+  "kotlin": "mobile",
+  "latex": "docs-meta",
+  "lisp": "lisp-libs",
+  "lua": "embedded-fpga",
+  "matlab": "science-math",
+  "ocaml": "lisp-libs",
+  "opencl": "gpu-graphics",
+  "pascal": "cpp-projects",
+  "perl": "python-apps",
+  "php": "web-net",
+  "python": "python-apps",
+  "r": "science-math",
+  "ruby": "web-net",
+  "rust": "rust-apps",
+  "scheme": "lisp-libs",
+  "shader": "gpu-graphics",
+  "shell": "docs-meta",
+  "swift": "mobile",
+  "tcl": "lisp-libs",
+  "ts": "web-net",
+  "vba": "docs-meta",
+  "verilog": "embedded-fpga",
+  "vhdl": "embedded-fpga",
+  "web": "web-net",
+  "wolfram": "science-math"
+ },
+ "marker_lang": {
+  "*.asd": [
+   "lisp",
+   10
+  ],
+  "*.ino": [
+   "arduino",
+   10
+  ],
+  "*.pde": [
+   "arduino",
+   10
+  ],
+  "build.gradle": [
+   "kotlin",
+   8
+  ],
+  "CMakeLists.txt": [
+   "cpp",
+   4
+  ],
+  "Cargo.lock": [
+   "rust",
+   10
+  ],
+  "Cargo.toml": [
+   "rust",
+   10
+  ],
+  "Gemfile": [
+   "ruby",
+   8
+  ],
+  "go.mod": [
+   "go",
+   10
+  ],
+  "Makefile": [
+   "c",
+   2
+  ],
+  "package.json": [
+   "js",
+   10
+  ],
+  "pom.xml": [
+   "java",
+   8
+  ],
+  "pyproject.toml": [
+   "python",
+   10
+  ],
+  "requirements*.txt": [
+   "python",
+   8
+  ],
+  "requirements.txt": [
+   "python",
+   8
+  ],
+  "setup.cfg": [
+   "python",
+   6
+  ],
+  "setup.py": [
+   "python",
+   10
+  ]
+ },
+ "name_only_clusters": [
+  "generators"
+ ],
+ "name_only_keys": [
+  "drm",
+  "dmd",
+  "slm",
+  "psf",
+  "sam",
+  "gpt",
+  "ner",
+  "stock",
+  "alpaca",
+  "tor",
+  "sip",
+  "plug",
+  "vim",
+  "emacs",
+  "tutorial",
+  "sensor",
+  "http",
+  "trigger"
+ ]
+}
