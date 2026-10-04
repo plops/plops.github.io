@@ -1,0 +1,74 @@
+**Rolle & Umgebung:**
+
+Du läufst in einem Docker-Image mit Ubuntu 26 auf einem Linux-Host. Du
+hast Zugriff auf Kernel-Messages vom Host und auf USB-Geräte.
+Docker-Referenz:
+`/workspace/src/cl-cl-generator/example/05_dockerfile_meta/source01/examples/03_ai_env/Dockerfile`
+Falls dir Pakete fehlen, installiere sie selbstständig. Du arbeitest
+im Auftrag von wol pumba (wolpumba@gmail.com).
+
+
+## Ziel
+
+Das Ziel ist es, ein bestehendes Übersichts-Diagramm meiner GitHub-Repositories zu aktualisieren. Dieses Diagramm wird auf meiner GitHub-Pages-Seite gerendert. 
+Die Datengrundlage ist ein aktueller GitHub-Export, der unter `/workspace/src/github/repositories/plops/`  entpackt wurde.
+
+Die Generierung des Diagramms basiert aktuell auf der Datei `gen00.lisp`, welche eine Datenstruktur `*graphs*` enthält und daraus ein Python-Skript (`gen_graphviz.py`) generiert, das wiederum Graphviz nutzt.
+
+Deine Aufgabe ist es, die neuen Repositories zu analysieren, logische Zusammenhänge/Kategorien zu finden und die `gen00.lisp` entsprechend zu erweitern, sodass das Diagramm alle Repositories sinnvoll abbildet.
+
+
+Schreibe auch eine Textuebersicht ueber die verschiedenen Repositories. Klassifiziere und Gruppiere sie nach Themengebieten.
+
+## Konzept & Umgang mit den Daten
+
+1. **Bare Git Repositories:**
+Die exportierten Repositories enden auf `.git` (z.B. `x11-shm-test.git`) und sind sogenannte *Bare Repositories*. Das bedeutet, es gibt keinen ausgecheckten Main/Master-Branch (keinen sichtbaren Quellcode im Ordner, nur `HEAD`, `config`, `objects` etc.).
+Um den Inhalt zu analysieren, *darfst du sie nicht alle vollständig klonen*, sondern sollst Git-Bordmittel nutzen, z.B.:
+- `git --git-dir=/pfad/zum/repo.git ls-tree -r HEAD` (Um die Dateinamen/Struktur zu sehen)
+- `git --git-dir=/pfad/zum/repo.git show HEAD:README.md` (Um die Dokumentation zu lesen)
+- `git --git-dir=/pfad/zum/repo.git show HEAD:package.json` / `Cargo.toml` / `*.lisp` etc. (Um die Haupt-Sprache/Technologie zu erkennen)
+
+Oder du clonest sie und loescht die clones danach wieder.
+
+2. **Kategorisierung & Clustering:**
+Lies automatisiert in die Repositories hinein, um herauszufinden, worum es geht (z.B. Lisp, Rust, Python, Elektronik/Hardware, GUI, Machine Learning). Aktualisiere die `*graphs*`-Variable in `gen00.lisp`, um die neuen Repos in die bestehenden Bäume einzuhängen oder sinnvolle neue Graphen/Cluster zu erstellen. Manchmal sind README.org oder README.md Dateien die es sich lohnt anzuschauen. Fuer manche (wenige) der Repos kannst du auch deepwiki MCP dazu befragen (z.b. plops/cl-rust-generator)
+
+3. **Technologie-Stack:**
+Du wirst Common Lisp (sbcl, quicklisp) und Python (graphviz) benötigen, um die Änderungen an `gen00.lisp` zu testen und sicherzustellen, dass die SVGs korrekt generiert werden.
+
+## Code Anforderungen
+
+Ich möchte sauberen, übersichtlichen und effizienten Code. Wenn du Skripte schreibst, um die Repositories zu scannen, nutze Python oder Bash, halte sie aber gut dokumentiert. Du sollst in dieser Aufgabe die Lisp-Datei `gen00.lisp` direkt modifizieren.
+
+In `deps.md` sollst du alle neu eingeführten Abhängigkeiten (z.B. Python-Pakete, Lisp-Bibliotheken oder Apt-Pakete) auflisten.
+
+**Datei-Aufteilung:** 
+Falls du ein neues Helfer-Skript für die Analyse der Repos schreibst, befolge die Regel: Keine langen Quelltextdateien (über 600 Zeilen). Benenne sie logisch, z.B. `01_scan_repos.py`, `02_cluster_data.py`. Die `gen00.lisp` kann bestehen bleiben, achte aber darauf, dass die Datenstruktur `*graphs*` übersichtlich formatiert bleibt. Und passe beim veraendern vom Lisp code darauf auf, dass dir keine Klammern verloren gehen. Wenn du doch einen Klammerfehler bekommst und nach zwei Versuchen keine loesung findest dann halte an und frage mich.
+
+Nutze Tools um konsistenten Quellcode zu gewährleisten (z.B. `ruff` für Python, Lisp-Formatierung).
+
+## Vorgehensweise & Implementierungsplan
+
+Schlage zuerst vor, wie wir dieses Feature implementieren können. Habe ich alle Requirements aufgelistet, oder fehlt noch etwas Wichtiges (z.B. der Umgang mit Repos, die keinen `HEAD` haben oder leer sind)?
+
+Schreibe anschließend einen **Implementierungsplan**. Dieser Plan soll einen unabhängigen AI-Agenten befähigen, selbstständig einen Kontext aufzubauen.
+Erstelle eine `task.md`, in der du die Implementierungs- und Test-Schritte seriell abfolgen lässt, sodass ein Agent die Tasks nacheinander abarbeiten kann und die Arbeit nach jedem Schritt getestet und validiert wird.
+
+Commit-Messages sollen mit einer umfassenden Beschreibung und im *Conventional Commit* Format ausgeführt werden.
+
+## Walkthrough-Dokument & Dokumentation (Strikte Regeln)
+
+Nach der vollständigen Implementierung, wenn alle Tests abgeschlossen sind und alles committed ist, MUSS zwingend ein Walkthrough-Dokument geschrieben und in `walkthrough.md` abgelegt werden.
+
+**WARNUNG:** Aus Erfahrung sind AI-generierte Dokumentationen oft zu kurz, trocken und unverständlich. Lege für den ausführenden Agenten folgende strikte Regeln fest, die unter keinen Umständen ignoriert werden dürfen:
+
+- **Sprache und Stil:** Das Dokument *muss zwingend auf Deutsch* verfasst sein. Es ist extrem wichtig, den Leser didaktisch gut abzuholen und mitzunehmen. Der Text soll sich flüssig lesen, wie ein guter Blog-Post oder ein Tutorial.
+- **Erklärungen:** Fachbegriffe (wie Bare Repositories, Lisp ASTs, Graphviz Digraphs) müssen kurz und verständlich für Dritte erklärt werden. Warum wurde etwas genau so gemacht?
+- **Visualisierung:** Verwende reichlich Code-Beispiele (z.B. wie man aus einem Bare Repo liest) und nutze **Mermaid-Diagramme**, um die Architektur, den Datenfluss (vom Git-Export über das Analyse-Skript in die Lisp-Datenstruktur) visuell zu veranschaulichen.
+- **Inhaltliche Struktur:**
+  1. Was exakt implementiert wurde (Das "Big Picture").
+  2. Wie die Analyse der Bare-Repositories technisch gelöst wurde.
+  3. Welche Clustering-Entscheidungen für das Lisp-Update getroffen wurden und warum (Gab es Anomalien in manchen Repos?).
+  4. Learnings und mögliche zukünftige Erweiterungen.
+  5. Eine Liste der neuen Programme/Pakete, die dauerhaft in das Dockerfile aufgenommen werden sollten.
