@@ -59,9 +59,7 @@
    (;; 1 generators (24 repos)
      "generators" "generators/ada"
      "generators" "generators/cl"
-     "generators" "generators/commonlisp"
      "generators" "generators/cpp"
-     "generators" "generators/cpp-generator2"
      "generators" "generators/csharp"
      "generators" "generators/elixir"
      "generators" "generators/erlang"
@@ -69,7 +67,6 @@
      "generators" "generators/js"
      "generators" "generators/julia"
      "generators" "generators/kotlin"
-     "generators" "generators/lean-py"
      "generators" "generators/matlab"
      "generators" "generators/python"
      "generators" "generators/r"
@@ -84,12 +81,10 @@
      "generators/ada" ("cl-ada-generator" "cl-ada-generator")
      ;; generators/cl
      "generators/cl" ("cl-cl-generator" "cl-cl-generator")
-     ;; generators/commonlisp
-     "generators/commonlisp" ("cl-commonlisp-generator" "cl-commonlisp-generator")
+     "generators/cl" ("cl-commonlisp-generator" "cl-commonlisp-generator")
      ;; generators/cpp
      "generators/cpp" ("cl-cpp-generator" "cl-cpp-generator")
-     ;; generators/cpp-generator2
-     "generators/cpp-generator2" ("cl-cpp-generator2" "cl-cpp-generator2")
+     "generators/cpp" ("cl-cpp-generator2" "cl-cpp-generator2")
      ;; generators/csharp
      "generators/csharp" ("cl-csharp-generator" "cl-csharp-generator")
      ;; generators/elixir
@@ -104,12 +99,11 @@
      "generators/julia" ("cl-julia-generator" "cl-julia-generator")
      ;; generators/kotlin
      "generators/kotlin" ("cl-kotlin-generator" "cl-kotlin-generator")
-     ;; generators/lean-py
-     "generators/lean-py" ("lean-py-generator" "lean-py-generator")
      ;; generators/matlab
      "generators/matlab" ("cl-m-generator" "cl-m-generator")
      ;; generators/python
      "generators/python" ("cl-py-generator" "cl-py-generator")
+     "generators/python" ("lean-py-generator" "lean-py-generator")
      ;; generators/r
      "generators/r" ("cl-r-generator" "cl-r-generator")
      ;; generators/rust
@@ -593,7 +587,8 @@
 	   (:a :href "repos_overview.md" "text overview") ".")
        (dolist (g (indexed-graphs))
 	 (:h2 (first g))
-	 (:raw (alexandria:read-file-into-string (second g))))
+	 (:div :style "overflow-x:auto;max-width:100%"
+	       (:raw (alexandria:read-file-into-string (second g)))))
        (:h2 "presentations")
        (:ol (let ((dir (merge-pathnames "presentations/" *base-dir*)))
 	      (when (probe-file dir)
@@ -637,6 +632,18 @@
 			   `(do0
 			     (setf ,g (graphviz.Digraph :format (string "svg")
 							:comment (string "projects")))
+			     ;; readable on HD screens: grow downwards (LR),
+			     ;; roomy boxes instead of cramped ellipses
+			     (dot ,g (attr :rankdir (string "LR")
+					   :nodesep (string "0.35")
+					   :ranksep (string "0.7")))
+			     (dot ,g (attr (string "node")
+					   :shape (string "box")
+					   :style (string "rounded")
+					   :fontname (string "Helvetica")
+					   :fontsize (string "16")))
+			     (dot ,g (attr (string "edge")
+					   :arrowsize (string "0.8")))
 			    ,@(loop for e in nodes
 				  collect
 				  (let ((o (cadr (assoc e links :test #'equal))))

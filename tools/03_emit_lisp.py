@@ -60,8 +60,9 @@ def generator_target(repo: str) -> str:
     short = repo
     for prefix in ("cl-", "coalton-"):
         short = short.removeprefix(prefix)
-    short = short.removesuffix("-generator")
-    return {"m": "matlab", "py": "python"}.get(short, short)
+    short = re.sub(r"-generator\d*$", "", short)
+    aliases = {"m": "matlab", "py": "python", "lean-py": "python", "commonlisp": "cl"}
+    return aliases.get(short, short)
 
 
 def lisp_prefix_group(repo: str) -> str:
